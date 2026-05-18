@@ -1,0 +1,55 @@
+COMISIÓN NACIONAL BANCARIA Y DE VALORES — CNBV
+DISPOSICIÓN 009/2021
+Ciudad de México, 18 de agosto de 2021
+
+ASUNTO: Sanciones Financieras Internacionales y Jurisdicciones de Riesgo en el Marco PLD/FT
+
+La presente Disposición establece los criterios y procedimientos para la implementación de sanciones financieras internacionales y el tratamiento de operaciones con contrapartes domiciliadas en jurisdicciones de riesgo, en el marco de las obligaciones de Prevención de Lavado de Dinero y Financiamiento al Terrorismo de las entidades financieras supervisadas por la CNBV.
+
+TÍTULO PRIMERO — DISPOSICIONES GENERALES
+
+Art. 1. Fundamento legal.
+La presente Disposición se emite con fundamento en las obligaciones internacionales asumidas por México en virtud de las Resoluciones del Consejo de Seguridad de la ONU en materia de financiamiento del terrorismo y proliferación de armas de destrucción masiva, las Recomendaciones del GAFI 6 y 7, y el artículo 115 de la Ley de Instituciones de Crédito.
+
+Art. 2. Sujetos obligados.
+Las presentes disposiciones aplican a todas las entidades financieras bajo la supervisión de la CNBV. Su aplicación es complementaria y no sustituye las obligaciones establecidas en la Disposición 003/2020 en materia de operaciones en efectivo, en la Disposición 012/2022 en materia de beneficiario final, y en la Disposición 008/2023 en materia de PEPs y transferencias internacionales.
+
+Art. 3. Definición de lista de sanciones.
+Para efectos de la presente Disposición, se entiende por lista de sanciones el conjunto de personas físicas, personas morales, entidades y buques que han sido objeto de sanciones financieras internacionales por parte de: (a) el Consejo de Seguridad de la Naciones Unidas; (b) la Oficina de Control de Activos Extranjeros (OFAC) del Departamento del Tesoro de los Estados Unidos; (c) la Unión Europea; (d) la Secretaría de Hacienda y Crédito Público de México, en su lista de personas bloqueadas.
+
+TÍTULO SEGUNDO — CONTROL DE LISTAS DE SANCIONES
+
+Art. 4. Obligación de consulta de listas de sanciones.
+Las entidades financieras deberán consultar las listas de sanciones vigentes en los siguientes momentos: (a) al inicio de toda nueva relación comercial; (b) antes de ejecutar cualquier transferencia internacional conforme a la Disposición 008/2023 Art.9; (c) cuando se identifique una nueva contraparte en cualquier operación; (d) de forma continua mediante sistemas automatizados de monitoreo de listas.
+
+Art. 5. Actualización de listas de sanciones.
+Las entidades financieras deberán actualizar las listas de sanciones en sus sistemas de consulta dentro de las veinticuatro (24) horas siguientes a cualquier actualización publicada por los organismos emisores. Para las listas de la ONU, la actualización deberá realizarse el mismo día de la publicación.
+
+Art. 6. Procedimiento ante coincidencia positiva.
+Cuando un cliente, contraparte u ordenante de una transferencia aparezca en una lista de sanciones, la entidad financiera deberá: (a) bloquear inmediatamente la operación o relación comercial; (b) bloquear los activos del sujeto sancionado en los términos de la sanción aplicable; (c) reportar la coincidencia a la UIF dentro de las veinticuatro (24) horas siguientes; (d) no alertar al sujeto sancionado sobre el bloqueo. El incumplimiento del bloqueo de activos de sujetos sancionados es considerado infracción muy grave.
+
+Art. 7. Gestión de falsos positivos.
+Cuando una consulta de listas arroje una coincidencia que, tras revisión, resulte ser un falso positivo (homonimia, error de datos), la entidad financiera deberá documentar la revisión realizada y conservar la evidencia que justifica la conclusión de falso positivo. La documentación de cada falso positivo deberá conservarse por el mismo período aplicable a los registros de PLD/FT.
+
+TÍTULO TERCERO — JURISDICCIONES DE RIESGO
+
+Art. 8. Lista de jurisdicciones de riesgo.
+Las entidades financieras deberán mantener y actualizar una lista interna de jurisdicciones de riesgo que incluya como mínimo: (a) las jurisdicciones identificadas por el GAFI como de alto riesgo o no cooperantes (lista negra y lista gris del GAFI); (b) las jurisdicciones objeto de sanciones aplicables a México; (c) jurisdicciones adicionales que la entidad financiera identifique como de alto riesgo en función de su propia evaluación de riesgos. La lista deberá actualizarse dentro de los diez (10) días hábiles siguientes a cada publicación del GAFI.
+
+Art. 9. Medidas reforzadas para jurisdicciones de riesgo.
+Las transferencias internacionales hacia o desde jurisdicciones de riesgo identificadas conforme al Art. 8 están sujetas a las medidas adicionales establecidas en la Disposición 008/2023 Art.15. Adicionalmente, deberán aplicarse las siguientes medidas: (a) verificación del propósito económico de la operación; (b) verificación del beneficiario final del ordenante o destinatario conforme a la Disposición 012/2022; (c) conservación de la documentación completa de la operación durante diez (10) años.
+
+Art. 10. Prohibición de relaciones corresponsales con jurisdicciones sancionadas.
+Las entidades financieras no podrán establecer ni mantener relaciones de corresponsalía bancaria con entidades domiciliadas en jurisdicciones objeto de sanciones financieras internacionales aplicables a México. Esta prohibición incluye la utilización de estas entidades como intermediarios en cadenas de pago.
+
+TÍTULO CUARTO — DISPOSICIONES FINALES
+
+Art. 11. Coordinación con la UIF.
+Las entidades financieras deberán coordinar con la UIF cualquier duda interpretativa sobre la aplicación de sanciones específicas, en particular en los casos de coincidencias positivas en listas de sanciones que presenten complejidad jurídica.
+
+Art. 12. Vigencia.
+La presente Disposición entra en vigor a los noventa (90) días naturales siguientes a su publicación en el Diario Oficial de la Federación.
+
+Ciudad de México, a dieciocho (18) días del mes de agosto de 2021.
+
+PRESIDENTE CNBV

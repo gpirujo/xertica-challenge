@@ -1,0 +1,55 @@
+SUPERINTENDENCIA DE BANCA, SEGUROS Y AFP — SBS
+CIRCULAR SBS N° 002-2022
+Lima, 15 de abril de 2022
+
+ASUNTO: Identificación y Verificación del Beneficiario Final de Personas Jurídicas
+
+La Superintendencia de Banca, Seguros y AFP establece los requisitos operativos para la identificación y verificación del beneficiario final de personas jurídicas, en el marco de las obligaciones sustantivas de la Resolución SBS N° 2660-2015 y en concordancia con las modificaciones introducidas por la Resolución SBS N° 4838-2021.
+
+SECCIÓN I — DISPOSICIONES GENERALES
+
+Art. 1. Objeto.
+La presente Circular establece los procedimientos operativos detallados para el cumplimiento de las obligaciones de identificación del beneficiario final de personas jurídicas clientes del sistema financiero, complementando la Resolución SBS N° 2660-2015 en sus aspectos procedimentales. Las definiciones sustantivas de beneficiario final se rigen por la Resolución SBS N° 2660-2015 Art.20 y las Recomendaciones 24 y 25 del GAFI.
+
+Art. 2. Definición operativa de beneficiario final.
+Para efectos de la aplicación de los procedimientos establecidos en la presente Circular, se entiende por beneficiario final a la persona natural que, conforme a los criterios de la Resolución SBS N° 2660-2015: (a) posea directa o indirectamente el veinticinco por ciento (25%) o más del capital social de la persona jurídica; o (b) ejerza el control de la persona jurídica por cualquier otro medio, incluyendo acuerdos de accionistas, derechos de veto o poder de nombramiento de directivos.
+
+Art. 3. Jerarquía normativa.
+En caso de aparente contradicción entre las disposiciones procedimentales de la presente Circular y las obligaciones sustantivas de la Resolución SBS N° 2660-2015 o la Resolución SBS N° 4838-2021, prevalecerán estas últimas.
+
+SECCIÓN II — PROCEDIMIENTO DE IDENTIFICACIÓN
+
+Art. 4. Formulario de declaración de beneficiario final.
+Las empresas supervisadas deberán obtener de cada cliente persona jurídica una declaración jurada del beneficiario final, utilizando el formulario estandarizado aprobado por la SBS y disponible en su portal institucional. El formulario deberá ser completado por el representante legal de la persona jurídica con facultades suficientes y firmado con firma manuscrita o, en el caso de personas jurídicas extranjeras, con firma legalizada o apostillada.
+
+Art. 5. Verificación de la declaración.
+La información declarada en el formulario del Art. 4 deberá verificarse mediante: (a) consulta al Registro de Personas Jurídicas de la SUNARP para personas jurídicas peruanas; (b) verificación en bases de datos comerciales de propiedad societaria para personas jurídicas extranjeras; (c) en casos de estructuras complejas o de alto riesgo, obtención de un informe de un proveedor externo de servicios de debida diligencia.
+
+Art. 6. Estructuras complejas — Cadena de propiedad.
+Para personas jurídicas con estructuras de propiedad de múltiples capas, las empresas supervisadas deberán documentar la cadena completa de propiedad hasta identificar a la persona natural que ejerce el control último. Esta documentación deberá incluir un diagrama de la estructura societaria que muestre los porcentajes de participación en cada capa. Cuando alguna capa intermedia esté constituida en una jurisdicción de riesgo conforme a la Resolución SBS N° 2660-2015 Art.16, se requerirá documentación adicional notariada.
+
+Art. 7. Personas jurídicas cuyo representante es PEP.
+Cuando el representante legal, el beneficiario final, o cualquier directivo de una persona jurídica sea una persona clasificada como PEP conforme a la Resolución SBS N° 4838-2021 Art.3, la persona jurídica deberá ser clasificada como cliente de alto riesgo desde el inicio de la relación comercial. En este caso, se aplicarán acumulativamente los requisitos de la presente Circular y los requisitos de due diligence reforzado de la Resolución SBS N° 2660-2015 Art.12, modificado por la Resolución SBS N° 4838-2021 Art.5.
+
+SECCIÓN III — ACTUALIZACIÓN PERIÓDICA
+
+Art. 8. Frecuencia de actualización.
+La información del beneficiario final deberá actualizarse con la siguiente periodicidad: (a) para clientes de alto riesgo: cada seis (6) meses; (b) para clientes de riesgo medio: anualmente; (c) para clientes de bajo riesgo: cada dos (2) años. Con independencia de la periodicidad establecida, la información deberá actualizarse siempre que la empresa supervisada tenga conocimiento de un cambio en la estructura de propiedad o control de la persona jurídica.
+
+Art. 9. Mecanismos de alerta por cambios societarios.
+Las empresas supervisadas deberán implementar sistemas de alerta que notifiquen al área de cumplimiento cuando se detecten cambios en los registros públicos de personas jurídicas de sus clientes. Para clientes de alto riesgo, se deberá realizar una consulta mensual activa a los registros disponibles.
+
+Art. 10. Consecuencias del incumplimiento de actualización.
+Cuando una persona jurídica no proporcione la información de actualización requerida en los plazos establecidos, la empresa supervisada deberá: (a) clasificarla como cliente de alto riesgo si no lo estaba ya; (b) aplicar las restricciones operativas correspondientes a la clasificación de alto riesgo; (c) iniciar el protocolo de escalamiento al oficial de cumplimiento conforme a la Resolución SBS N° 4838-2021.
+
+SECCIÓN IV — DISPOSICIONES FINALES
+
+Art. 11. Conservación de registros de beneficiario final.
+Los formularios de declaración de beneficiario final y la documentación de verificación deberán conservarse conforme a los plazos establecidos en la Resolución SBS N° 2660-2015 Art.26.
+
+Art. 12. Vigencia.
+La presente Circular rige a partir de los cuarenta y cinco (45) días calendario siguientes a su publicación en el Diario Oficial El Peruano.
+
+Lima, a quince (15) días del mes de abril de 2022.
+
+SUPERINTENDENTE DE BANCA, SEGUROS Y AFP

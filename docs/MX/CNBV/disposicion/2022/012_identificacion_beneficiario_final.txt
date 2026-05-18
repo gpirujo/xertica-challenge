@@ -1,0 +1,70 @@
+COMISIÓN NACIONAL BANCARIA Y DE VALORES — CNBV
+DISPOSICIÓN 012/2022
+Ciudad de México, 15 de septiembre de 2022
+
+ASUNTO: Identificación y Verificación del Beneficiario Final en Personas Morales
+
+La presente Disposición establece los requisitos y procedimientos para la identificación, verificación y actualización de la información del beneficiario final en personas morales, en el marco de las obligaciones de Prevención de Lavado de Dinero y Financiamiento al Terrorismo (PLD/FT).
+
+TÍTULO PRIMERO — DISPOSICIONES GENERALES
+
+Art. 1. Objeto.
+La presente Disposición tiene por objeto establecer criterios homogéneos para la identificación del beneficiario final en personas morales, en cumplimiento de las Recomendaciones 24 y 25 del GAFI y del artículo 115 de la Ley de Instituciones de Crédito. Los criterios aquí establecidos constituyen el estándar mínimo para todas las entidades supervisadas por la CNBV.
+
+Art. 2. Definición de beneficiario final.
+Para efectos de la presente Disposición, se entiende por beneficiario final a la persona física que directa o indirectamente ejerza el control de una persona moral o que posea una participación o derecho del veinticinco por ciento (25%) o más del capital social, de los derechos de voto, o de los derechos a los activos o utilidades. En caso de que ninguna persona física cumpla individualmente con este criterio, se considerará beneficiario final a la persona física que ejerza el control por otros medios. Si no puede identificarse ninguna persona física bajo estos criterios, se considerará beneficiario final al director general o equivalente.
+
+Art. 3. Estructura de propiedad compleja.
+Para personas morales con estructura de propiedad compleja o de múltiples capas, la identificación deberá realizarse a través de todas las capas de propiedad hasta identificar a la persona física que ejerce el control último. Las entidades financieras deberán documentar la cadena completa de propiedad.
+
+Art. 4. Obligación de declaración del cliente.
+Las personas morales que establezcan relaciones comerciales con entidades financieras supervisadas por la CNBV deberán proporcionar información completa sobre su estructura de propiedad y la identidad de sus beneficiarios finales. La negativa a proporcionar esta información impedirá el establecimiento de la relación comercial.
+
+TÍTULO SEGUNDO — OBLIGACIONES DE IDENTIFICACIÓN
+
+Art. 5. Beneficiario final obligatorio en personas morales.
+La identificación y verificación del beneficiario final es una obligación sine qua non para el establecimiento y mantenimiento de relaciones comerciales con personas morales. Las entidades financieras no podrán iniciar ninguna relación comercial sin haber identificado y verificado al beneficiario final. Este artículo referencia la Disposición 008/2023 Art.30, que establece el tratamiento de alto riesgo para entidades sin beneficiario final identificado. La identificación deberá incluir: nombre completo, fecha de nacimiento, nacionalidad, número de identificación oficial, domicilio, y porcentaje de participación o método de control. Los requisitos de verificación en entornos digitales han sido actualizados por la Disposición 015/2024 Art.6.
+
+Art. 6. Documentación requerida.
+Para la verificación del beneficiario final se deberán obtener y conservar los siguientes documentos: identificación oficial vigente del beneficiario final, acta constitutiva y estatutos de la persona moral con sus modificaciones, poderes notariales vigentes, y declaración notariada de la estructura de beneficiario final. Para estructuras complejas se requerirá adicionalmente un organigrama certificado de la estructura de propiedad.
+
+Art. 7. Verificación mediante fuentes independientes.
+La información del beneficiario final deberá verificarse mediante al menos una fuente independiente confiable, que puede incluir: registros públicos de comercio, bases de datos gubernamentales de personas morales, informes de empresas especializadas en debida diligencia, o documentos oficiales emitidos por autoridades competentes.
+
+Art. 8. Personas morales extranjeras.
+Para personas morales constituidas en el extranjero, la verificación del beneficiario final deberá realizarse conforme a las normas del país de constitución, siempre que dichas normas sean equivalentes o superiores a los estándares GAFI. En caso contrario, se deberá obtener documentación notariada y apostillada del país de origen.
+
+TÍTULO TERCERO — ACTUALIZACIÓN Y MANTENIMIENTO
+
+Art. 9. Plazo de actualización de información.
+La información del beneficiario final deberá actualizarse dentro de los treinta (30) días calendario siguientes a cualquier cambio en la estructura de propiedad o control de la persona moral. La entidad financiera deberá notificar activamente a sus clientes persona moral sobre esta obligación e implementar mecanismos para detectar cambios en la estructura societaria.
+
+Art. 10. Revisión periódica.
+Con independencia de los cambios comunicados por el cliente, las entidades financieras deberán realizar una revisión anual de la información de beneficiario final de todos sus clientes persona moral. Para clientes de alto riesgo, esta revisión será semestral.
+
+Art. 11. Mecanismos de detección de cambios.
+Las entidades financieras deberán implementar mecanismos tecnológicos y procedimentales para detectar cambios en la estructura de propiedad de sus clientes persona moral, incluyendo alertas por cambios en registros públicos y monitoreo de fuentes de información pública.
+
+TÍTULO CUARTO — CONSECUENCIAS DEL INCUMPLIMIENTO
+
+Art. 12. Clasificación de riesgo por incumplimiento.
+Las personas morales que no proporcionen información completa y verificada del beneficiario final o que no cumplan con la obligación de actualización del Art. 9 deberán ser clasificadas automáticamente como clientes de alto riesgo, con las implicaciones operativas y de monitoreo que esto conlleva.
+
+Art. 13. Restricciones operativas.
+Los clientes persona moral clasificados como alto riesgo por incumplimiento en materia de beneficiario final estarán sujetos a las siguientes restricciones operativas: límites en los montos máximos de operación, requerimiento de aprobación previa del oficial de cumplimiento para cada operación, y prohibición de realizar transferencias internacionales.
+
+Art. 14. Plazo de regularización.
+Las personas morales que incumplan las obligaciones de la presente Disposición dispondrán de un plazo de treinta (30) días hábiles para regularizar su situación antes de que se apliquen las consecuencias establecidas en el Art. 15.
+
+Art. 15. Consecuencias de incumplimiento — bloqueo de cuenta.
+Vencido el plazo de regularización del Art. 14 sin que el cliente haya cumplido con las obligaciones de identificación del beneficiario final, la entidad financiera deberá: (a) bloquear la cuenta o las cuentas del cliente, impidiendo la realización de nuevas operaciones; (b) reportar la situación a la Unidad de Inteligencia Financiera (UIF) como operación de riesgo; (c) iniciar el proceso de terminación de la relación comercial conforme al Art. 16 de la presente Disposición. El bloqueo de cuenta es una medida de cumplimiento obligatorio y no una facultad discrecional de la entidad.
+
+Art. 16. Terminación de la relación comercial.
+Cuando proceda la terminación de la relación comercial por incumplimiento en materia de beneficiario final, la entidad financiera deberá seguir el procedimiento establecido en las disposiciones generales de PLD/FT, asegurando que la terminación no alerte al cliente sobre la existencia de un reporte ante la UIF.
+
+Art. 17. Vigencia.
+La presente Disposición entra en vigor a los noventa (90) días naturales siguientes a su publicación en el Diario Oficial de la Federación. Deroga la Circular B-12/2018 en materia de beneficiario final.
+
+Ciudad de México, a quince (15) días del mes de septiembre de 2022.
+
+PRESIDENTE CNBV

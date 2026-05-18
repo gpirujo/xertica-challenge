@@ -1,0 +1,84 @@
+SUPERINTENDENCIA DE BANCA, SEGUROS Y AFP — SBS
+RESOLUCIÓN SBS N° 2660-2015
+Lima, 12 de mayo de 2015
+
+ASUNTO: Reglamento de Gestión de Riesgo de Lavado de Activos y del Financiamiento del Terrorismo — PEPs, Jurisdicciones de Riesgo y Debida Diligencia Reforzada
+
+La Superintendencia de Banca, Seguros y AFP, en ejercicio de las atribuciones conferidas por los artículos 347° y 349° de la Ley N° 26702, Ley General del Sistema Financiero y del Sistema de Seguros, establece el presente Reglamento de Gestión de Riesgo de LA/FT.
+
+TÍTULO I — DISPOSICIONES GENERALES
+
+Art. 1. Alcance y ámbito de aplicación.
+El presente Reglamento es de aplicación obligatoria para todas las empresas del sistema financiero bajo supervisión de la SBS, incluyendo empresas bancarias, financieras, cajas municipales, cajas rurales, EDPYME y demás entidades autorizadas a captar depósitos o realizar intermediación financiera. Asimismo, aplica a las empresas del sistema de seguros y a las AFP en lo que corresponda a sus operaciones.
+
+Art. 2. Marco normativo aplicable.
+Las disposiciones del presente Reglamento se enmarcan en la Ley N° 27693 de Unidades de Inteligencia Financiera, su Reglamento aprobado por Decreto Supremo N° 018-2006-JUS, las modificaciones introducidas por el Decreto Legislativo N° 986/2007, y las Recomendaciones del GAFI en su versión vigente. Para aspectos no previstos expresamente, se aplicarán supletoriamente las Recomendaciones del GAFI.
+
+Art. 3. Enfoque basado en riesgo.
+Las empresas supervisadas deberán implementar un Sistema de Prevención de LA/FT basado en el enfoque de riesgo, que comprenda la identificación, evaluación, mitigación y monitoreo continuo de los riesgos de LA/FT a los que está expuesta la empresa. La intensidad de los controles deberá ser proporcional al nivel de riesgo identificado.
+
+TÍTULO II — PERSONAS POLÍTICAMENTE EXPUESTAS
+
+Art. 10. Definición ampliada de PEPs.
+Para efectos del presente Reglamento, se considera PEP a toda persona natural, nacional o extranjera, que desempeñe o haya desempeñado en los últimos cinco (5) años funciones públicas prominentes, incluyendo: Presidente y Vicepresidente de la República, Congresistas, Ministros de Estado, Magistrados del Poder Judicial y del Tribunal Constitucional, Jefes de organismos públicos, Alcaldes y Gobernadores Regionales, Jefes de misiones diplomáticas, directivos de empresas estatales, y funcionarios de organismos internacionales con sede en Perú. Los criterios de identificación de PEPs han sido complementados por la Resolución SBS N° 4838-2021 Art.5.
+
+Art. 11. PEPs en el contexto internacional.
+Las definiciones de PEPs incluyen también a personas que ejercen o han ejercido funciones equivalentes en el extranjero. Las empresas supervisadas deberán considerar como PEPs a los funcionarios de gobiernos extranjeros en puestos equivalentes a los listados en el Art. 10, conforme a las listas y bases de datos internacionales especializadas.
+
+Art. 12. Due diligence reforzado para PEPs — Aprobación gerencial.
+Las operaciones realizadas por personas clasificadas como PEPs están sujetas a medidas de due diligence reforzado de aplicación obligatoria. Toda operación con PEPs deberá ser aprobada por la gerencia de compliance o el funcionario designado con nivel jerárquico equivalente, independientemente del monto de la operación. El proceso de aprobación deberá quedar documentado en el expediente del cliente con la justificación de la aprobación y los controles aplicados. Esta disposición aplica de forma acumulativa con las medidas establecidas en el Art. 18 cuando se trate de PEPs que realicen operaciones con contrapartes en jurisdicciones de riesgo, y con el Art. 25 cuando las operaciones superen los umbrales allí establecidos. El incumplimiento del requisito de aprobación gerencial para operaciones de PEPs constituye una infracción grave bajo el presente Reglamento. Los procedimientos de aprobación han sido actualizados por la Resolución SBS N° 4838-2021 Art.12.
+
+Art. 13. Monitoreo continuo de PEPs.
+Las operaciones de PEPs deberán ser objeto de monitoreo continuo y reforzado durante toda la vigencia de la relación comercial. Las empresas supervisadas deberán implementar alertas automáticas para cualquier variación inusual en el perfil transaccional del PEP.
+
+Art. 14. Revisión del estatus de PEP.
+Las empresas supervisadas deberán revisar anualmente el estatus de PEP de sus clientes. Cuando un cliente deje de ejercer funciones públicas, mantendrá la clasificación de PEP durante los cinco (5) años siguientes al cese de sus funciones, con aplicación plena de todas las medidas de debida diligencia reforzada.
+
+TÍTULO III — JURISDICCIONES DE RIESGO
+
+Art. 16. Identificación de jurisdicciones de riesgo.
+Las empresas supervisadas deberán mantener actualizada la lista de jurisdicciones de riesgo identificadas por el GAFI en sus publicaciones periódicas (listas negra y gris). Esta lista deberá incorporarse a los sistemas de monitoreo transaccional dentro de los diez (10) días hábiles siguientes a cada actualización del GAFI.
+
+Art. 17. Medidas reforzadas por jurisdicción.
+Las operaciones con contrapartes domiciliadas en jurisdicciones de riesgo requerirán la aplicación de medidas de debida diligencia reforzada, incluyendo mayor profundidad en la verificación del origen de fondos y el propósito de la operación.
+
+Art. 18. Jurisdicciones GAFI no cooperantes — Reporte obligatorio.
+Toda operación con contrapartes domiciliadas en jurisdicciones identificadas por el GAFI como no cooperantes o de muy alto riesgo está sujeta a reporte obligatorio ante la Unidad de Inteligencia Financiera del Perú (UIF-Perú), independientemente del monto y de la calificación de la operación como sospechosa. El reporte deberá realizarse dentro de los cinco (5) días hábiles siguientes a la ejecución de la operación. Esta disposición opera de forma independiente de los mecanismos de reporte de operaciones sospechosas y se aplica de forma acumulativa con lo establecido en el Art. 12 cuando el cliente involucrado sea un PEP. Los procedimientos de reporte han sido actualizados por la Resolución SBS N° 4838-2021 Art.15.
+
+Art. 19. Prohibición de operaciones con jurisdicciones sancionadas.
+Las empresas supervisadas no podrán realizar operaciones con contrapartes domiciliadas en jurisdicciones objeto de sanciones financieras internacionales aplicables al Perú. El incumplimiento de esta prohibición será considerado una infracción muy grave y podrá dar lugar a la revocación de la autorización de funcionamiento.
+
+TÍTULO IV — DEBIDA DILIGENCIA REFORZADA Y UMBRALES
+
+Art. 20. Criterios generales de debida diligencia reforzada.
+La debida diligencia reforzada aplica de manera obligatoria para: PEPs (Art. 12), operaciones con jurisdicciones de riesgo (Art. 18), clientes con antecedentes de reporte previo ante la UIF-Perú, y operaciones que superen los umbrales establecidos en el Art. 25. Las medidas de debida diligencia reforzada son acumulativas: cuando concurran varios factores de riesgo, todas las medidas aplicables deberán implementarse simultáneamente.
+
+Art. 21. Conocimiento del origen de fondos.
+En todos los casos que requieran debida diligencia reforzada, las empresas supervisadas deberán obtener y documentar información sobre el origen de los fondos y el propósito económico de la operación. La información deberá ser plausible y consistente con el perfil económico del cliente.
+
+Art. 22. Revisión de operaciones estructuradas.
+Las empresas supervisadas deberán implementar controles para detectar operaciones estructuradas, entendidas como aquellas diseñadas para evitar los umbrales de reporte mediante el fraccionamiento deliberado de montos. Cuando se detecte estructuración, se aplicarán las medidas del Art. 20 sobre el monto agregado de las operaciones vinculadas.
+
+Art. 24. Reporte de operaciones en efectivo.
+Las operaciones en efectivo que superen el equivalente a USD 5,000 deberán ser reportadas a la UIF-Perú conforme al formato y periodicidad establecidos por dicha Unidad.
+
+Art. 25. Umbral USD 10,000 para entidades jurídicas.
+Las operaciones realizadas por personas jurídicas que superen el equivalente a USD 10,000 (diez mil dólares estadounidenses) activarán de forma automática revisión por el área de cumplimiento. Para el cálculo del equivalente se utilizará el tipo de cambio publicado por la SBS el día anterior a la operación. Este umbral aplica también al monto agregado de operaciones vinculadas de una misma persona jurídica en un período de cuarenta y ocho (48) horas. La superación del umbral no implica por sí misma que la operación sea sospechosa, sino que activa el proceso de revisión documentado. Esta disposición opera de forma acumulativa con el Art. 12 para el caso de personas jurídicas cuyo representante o beneficiario sea un PEP.
+
+Art. 26. Conservación de registros.
+Las empresas supervisadas deberán conservar todos los registros vinculados a operaciones sujetas a debida diligencia reforzada por un período de diez (10) años, contados desde la fecha de la operación o la terminación de la relación comercial, lo que ocurra último. Los requisitos de conservación de registros digitales han sido complementados por la Resolución SBS N° 1560-2023 Art.11.
+
+TÍTULO V — DISPOSICIONES FINALES
+
+Art. 28. Capacitación del personal.
+Las empresas supervisadas deberán implementar programas de capacitación continua en materia de PLD/FT para todo su personal, con énfasis en las áreas de mayor exposición al riesgo.
+
+Art. 29. Autoevaluación y auditoría interna.
+Las empresas supervisadas deberán realizar autoevaluaciones anuales de la efectividad de su Sistema de Prevención de LA/FT y someter dicho sistema a revisión por auditoría interna al menos una vez al año.
+
+Art. 30. Vigencia.
+La presente Resolución entra en vigencia a los treinta (30) días calendario siguientes a su publicación en el Diario Oficial El Peruano. Deroga la Resolución SBS N° 1765-2005 y sus modificatorias.
+
+Lima, a doce (12) días del mes de mayo de 2015.
+
+SUPERINTENDENTE DE BANCA, SEGUROS Y AFP

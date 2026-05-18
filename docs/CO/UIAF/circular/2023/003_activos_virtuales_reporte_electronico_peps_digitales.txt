@@ -1,0 +1,57 @@
+UNIDAD DE INFORMACIÓN Y ANÁLISIS FINANCIERO — UIAF
+CIRCULAR EXTERNA 003 DE 2023
+Bogotá, D.C., 14 de febrero de 2023
+
+ASUNTO: Reporte Electrónico de Operaciones, Activos Virtuales y Tratamiento de PEPs en Entornos Digitales
+
+La presente circular establece los requisitos actualizados para el reporte electrónico de operaciones ante la UIAF, regula el tratamiento de activos virtuales en el marco de la prevención de LA/FT, y complementa los criterios de tratamiento de personas políticamente expuestas en entornos digitales y de activos virtuales, en concordancia con lo dispuesto en la Circular 001/2021 y la Circular 002/2022.
+
+CAPÍTULO I — DISPOSICIONES GENERALES
+
+Art. 1. Objeto y fundamento.
+La presente circular se expide en ejercicio de las facultades legales de la UIAF y en cumplimiento de las Recomendaciones del GAFI actualizadas para proveedores de servicios de activos virtuales (PSAV), adoptadas por Colombia mediante el CONPES 3975 de 2019 y las regulaciones del Banco de la República y la Superintendencia Financiera. Las disposiciones de la Circular 001/2021 y la Circular 002/2022 que no sean expresamente modificadas por la presente continúan vigentes en su integridad.
+
+Art. 2. Ámbito de aplicación ampliado.
+Además de los sujetos obligados establecidos en la Circular 001/2021 Art.1, la presente circular aplica a los proveedores de servicios de activos virtuales (PSAV) que operen en Colombia, incluyendo exchanges de criptomonedas, plataformas de custodia de activos digitales, y proveedores de servicios de transferencia de valor basados en tecnología de registro distribuido (DLT).
+
+Art. 3. Definición de activo virtual.
+Para efectos de la presente circular, se entiende por activo virtual la representación digital de valor que puede ser comercializada o transferida digitalmente y puede ser utilizada para pagos o con fines de inversión. Esta definición es consistente con la terminología adoptada por el GAFI y no incluye las representaciones digitales de monedas fiduciarias emitidas por bancos centrales (CBDC) ni los instrumentos financieros regulados por el régimen bursátil.
+
+CAPÍTULO II — REPORTE ELECTRÓNICO ACTUALIZADO
+
+Art. 4. Plataforma de reporte electrónico — SIREL 2.0.
+Los reportes de operaciones sospechosas a que hace referencia la Circular 001/2021 Art.3 deberán realizarse a través del Sistema de Reporte Electrónico de la UIAF versión 2.0 (SIREL 2.0), que reemplaza al sistema anterior a partir del primero (1°) de julio de 2023. Los sujetos obligados dispondrán de un período de transición de noventa (90) días para migrar sus integraciones técnicas al nuevo sistema. Durante el período de transición, se aceptarán reportes en ambos sistemas.
+
+Art. 5. Formato estandarizado de reporte.
+Los reportes de operaciones sospechosas deberán presentarse utilizando el esquema XML estandarizado publicado por la UIAF en su portal institucional. Este esquema incluye campos obligatorios adicionales respecto al formato anterior, en particular: geolocalización del dispositivo desde el cual se origina la transacción digital, dirección de billetera virtual cuando aplique, y hash de transacción blockchain cuando la operación involucre activos virtuales.
+
+Art. 6. Reporte en tiempo real para activos virtuales.
+Las transacciones en activos virtuales que superen el equivalente a USD 1,000 (un mil dólares estadounidenses) deberán generar un reporte automático a la UIAF en tiempo real, con un máximo de dos (2) horas desde la ejecución de la transacción. Este umbral es independiente y adicional al umbral general de USD 10,000 establecido en la Circular 002/2022 Art.5.
+
+CAPÍTULO III — ACTIVOS VIRTUALES
+
+Art. 7. PEPs y activos virtuales.
+Las personas clasificadas como PEPs conforme a los criterios de la Circular 001/2021 Art.15 y la Circular 002/2022 Art.11 que realicen operaciones con activos virtuales están sujetas a las siguientes medidas adicionales: (a) reporte inmediato de toda operación con activos virtuales al oficial de cumplimiento, independientemente del monto; (b) prohibición de utilizar billeteras no custodiales o mixers de criptomonedas; (c) verificación del origen de los activos virtuales mediante análisis de blockchain por herramientas especializadas de análisis de cadena. El incumplimiento de estas medidas adicionales constituye una falta grave de conformidad con el régimen sancionatorio de la Circular 001/2021 Art.19, complementado por el Art.9 de la presente circular.
+
+Art. 8. Debida diligencia para activos virtuales.
+Los PSAV deberán aplicar debida diligencia reforzada conforme a los criterios de la Circular 001/2021 Art.7 en los siguientes supuestos adicionales: (a) transacciones que involucren billeteras asociadas a jurisdicciones de riesgo conforme a las listas GAFI; (b) operaciones de intercambio entre activos virtuales y dinero fiduciario que superen el equivalente a USD 5,000; (c) transacciones que presenten patrones de ofuscación o uso de tecnologías de privacidad avanzada (monedas de privacidad, contratos inteligentes de mezcla).
+
+CAPÍTULO IV — COMPLEMENTOS AL RÉGIMEN SANCIONATORIO
+
+Art. 9. Sanciones por fallas tecnológicas en el sistema de reporte.
+El régimen sancionatorio establecido en la Circular 001/2021 Art.19 se complementa con las siguientes disposiciones: las fallas técnicas en el sistema de reporte electrónico que impidan el envío oportuno del ROS deberán ser comunicadas a la UIAF dentro de la hora (1h) siguiente a la detección de la falla, mediante el canal de contingencia habilitado. La falta de comunicación de la falla técnica se equiparará al incumplimiento del plazo de reporte para efectos sancionatorios. Los sujetos obligados deberán mantener un sistema de contingencia para el reporte manual en caso de falla del sistema electrónico.
+
+Art. 10. Responsabilidad de los PSAV.
+Los proveedores de servicios de activos virtuales que incumplan las obligaciones establecidas en la presente circular estarán sujetos a las sanciones previstas en la Circular 001/2021 Art.19, con un factor multiplicador de dos (2) para el cálculo de la multa, dada la mayor velocidad y capacidad de ocultamiento que caracteriza a las operaciones con activos virtuales.
+
+CAPÍTULO V — DISPOSICIONES FINALES
+
+Art. 11. Complementariedad con circulares anteriores.
+La presente circular complementa y no deroga las disposiciones de la Circular 001/2021 y la Circular 002/2022, salvo en lo expresamente indicado en los artículos anteriores. Para la interpretación de las presentes disposiciones, se aplicarán supletoriamente las guías de supervisión publicadas por la UIAF en su portal institucional.
+
+Art. 12. Vigencia.
+La presente circular rige a partir de los sesenta (60) días calendario siguientes a su publicación en el Boletín Oficial, con excepción de las disposiciones relativas al SIREL 2.0, que entran en vigor conforme al cronograma establecido en el Art.4.
+
+Expedida en Bogotá, D.C., a los catorce (14) días del mes de febrero de 2023.
+
+DIRECTOR UIAF

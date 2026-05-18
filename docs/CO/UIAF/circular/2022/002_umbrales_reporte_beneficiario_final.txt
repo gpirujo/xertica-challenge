@@ -1,0 +1,60 @@
+UNIDAD DE INFORMACIÓN Y ANÁLISIS FINANCIERO — UIAF
+CIRCULAR EXTERNA 002 DE 2022
+Bogotá, D.C., 10 de junio de 2022
+
+ASUNTO: Actualización de Umbrales de Reporte, Beneficiario Final y Revisión de PEPs
+
+La presente circular introduce modificaciones a los umbrales de reporte automático establecidos en la Circular Externa 001/2021, refuerza las obligaciones sobre beneficiario final y actualiza los criterios para el tratamiento de personas políticamente expuestas.
+
+CAPÍTULO I — ANTECEDENTES Y MOTIVACIÓN
+
+Art. 1. Contexto normativo.
+En cumplimiento de las Recomendaciones del GAFI actualizadas en 2022 y en atención a las observaciones formuladas por el Comité de Expertos en Evaluación de Medidas contra el Lavado de Dinero y el Financiamiento del Terrorismo (MESICIC), la UIAF procede a actualizar los instrumentos de reporte y control establecidos en la Circular 001/2021. Las disposiciones de la Circular 001/2021 que no sean expresamente modificadas por la presente continúan vigentes.
+
+Art. 2. Alcance de las modificaciones.
+Las modificaciones introducidas por la presente circular afectan específicamente los artículos 8 y 18 de la Circular 001/2021, en lo relativo a los umbrales de reporte y al mecanismo de identificación del beneficiario final. Ver también Art. 12 de la presente circular para el detalle de las derogatorias específicas.
+
+Art. 3. Principio de proporcionalidad.
+Las medidas de control establecidas deberán aplicarse de forma proporcional al nivel de riesgo identificado. Los sujetos obligados deberán documentar su metodología de calificación de riesgo y mantenerla actualizada conforme a la evolución del perfil de sus clientes.
+
+CAPÍTULO II — ACTUALIZACIÓN DE UMBRALES
+
+Art. 4. Marco general de umbrales.
+Los umbrales de reporte automático constituyen el mecanismo central del sistema de alertas transaccionales. Su correcta calibración es fundamental para evitar tanto la sub-detección de operaciones sospechosas como la saturación de los sistemas de análisis con alertas de bajo valor.
+
+Art. 5. Actualización del umbral de reporte — USD 10,000.
+El umbral de reporte automático para transferencias de fondos queda establecido en USD 10,000 (diez mil dólares estadounidenses) o su equivalente en moneda local calculado con la TRM del día anterior a la transacción publicada por el Banco de la República. Esta disposición modifica el mecanismo de cálculo establecido en la Circular 001/2021 Art.18, manteniendo el monto base pero actualizando el método de conversión de divisas. Los sistemas de monitoreo deberán ser actualizados para utilizar la nueva metodología de conversión en un plazo máximo de sesenta (60) días calendario.
+
+Art. 6. Umbral para transferencias fraccionadas.
+Cuando se detecte fraccionamiento de operaciones, el umbral aplicable se calculará sobre el monto agregado de las transacciones vinculadas en un período de setenta y dos (72) horas, ampliando el período de veinticuatro (24) horas establecido en la Circular 001/2021 Art.17.
+
+Art. 7. Revisión periódica de umbrales.
+Los umbrales establecidos en la presente circular serán revisados anualmente por la UIAF en función de la evolución del índice de precios, las tendencias de tipologías de LA/FT y las recomendaciones internacionales vigentes.
+
+CAPÍTULO III — BENEFICIARIO FINAL
+
+Art. 8. Identificación reforzada del beneficiario final.
+Se refuerzan las obligaciones de identificación del beneficiario final establecidas en la Circular 001/2021 Art.8. Los sujetos obligados deberán obtener y verificar la información del beneficiario final de todas las personas jurídicas clientes, independientemente de su domicilio. La verificación deberá realizarse a través de fuentes oficiales o documentos notariados. Para estructuras societarias complejas con múltiples capas de propiedad, la obligación se extiende hasta identificar a la persona natural que ejerce el control último o tiene la titularidad efectiva. Este artículo complementa y refuerza la Circular 001/2021 Art.8.
+
+Art. 9. Actualización de información del beneficiario final.
+La información del beneficiario final deberá actualizarse cada doce (12) meses como máximo, y dentro de los quince (15) días hábiles siguientes a cualquier cambio en la estructura de control o propiedad de la persona jurídica. Los sujetos obligados que no cumplan con esta obligación deberán reportarlo como operación de riesgo.
+
+Art. 10. Registro centralizado de beneficiarios finales.
+Los sujetos obligados deberán alimentar el Registro Centralizado de Beneficiarios Finales administrado por la DIAN, conforme al cronograma de implementación que establezca esa entidad. Este artículo complementa lo dispuesto en el Art. 8 de la presente circular.
+
+CAPÍTULO IV — ACTUALIZACIÓN DE PERSONAS POLÍTICAMENTE EXPUESTAS
+
+Art. 11. Criterios ampliados para PEPs.
+Se amplían los criterios de clasificación de PEPs para incluir a funcionarios de organismos internacionales con sede en Colombia, así como a personas que hayan ejercido funciones públicas prominentes en los últimos veinticuatro (24) meses. Esta disposición complementa lo establecido en la Circular 001/2021 Art.15. Los criterios de clasificación han sido complementados adicionalmente por la Circular 003/2023 Art.7, que introduce el tratamiento de PEPs en operaciones con criptoactivos.
+
+CAPÍTULO V — DISPOSICIONES FINALES
+
+Art. 12. Derogatorias específicas.
+El presente artículo deroga expresamente el mecanismo de cálculo del equivalente en moneda local establecido en la Circular 001/2021 Art.18, sustituyéndolo por el mecanismo establecido en el Art.5 de la presente circular. Las demás disposiciones de la Circular 001/2021 Art.18 permanecen vigentes. La tabla de equivalencias en moneda local publicada como anexo de la Circular 001/2021 queda sin efecto. Ver también Art. 5 de la presente circular para el mecanismo vigente.
+
+Art. 13. Vigencia.
+La presente circular rige a partir de los treinta (30) días calendario siguientes a su publicación en el Boletín Oficial. Los plazos específicos de adecuación tecnológica se establecen en cada artículo pertinente.
+
+Expedida en Bogotá, D.C., a los diez (10) días del mes de junio de 2022.
+
+DIRECTOR UIAF

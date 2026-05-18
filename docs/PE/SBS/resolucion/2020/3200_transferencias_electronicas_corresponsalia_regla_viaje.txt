@@ -1,0 +1,55 @@
+SUPERINTENDENCIA DE BANCA, SEGUROS Y AFP — SBS
+RESOLUCIÓN SBS N° 3200-2020
+Lima, 7 de julio de 2020
+
+ASUNTO: Reglamento de Transferencias Electrónicas de Fondos y Relaciones de Corresponsalía en el Marco de LA/FT
+
+La Superintendencia de Banca, Seguros y AFP establece los requisitos para la transmisión de información en transferencias electrónicas de fondos (Regla de Viaje) y para la gestión del riesgo en relaciones de banca corresponsal, en complemento de las obligaciones establecidas en la Resolución SBS N° 2660-2015.
+
+TÍTULO I — DISPOSICIONES GENERALES
+
+Art. 1. Fundamento y alcance.
+La presente Resolución se emite en cumplimiento de la Recomendación 16 del GAFI sobre transferencias electrónicas y la Recomendación 13 sobre banca corresponsal, y de las obligaciones del Perú como miembro del GAFILAT. Es de aplicación obligatoria para todas las empresas del sistema financiero supervisadas por la SBS que procesen transferencias electrónicas de fondos nacionales o internacionales, o que mantengan relaciones de corresponsalía bancaria. Los aspectos de due diligence complementarios se regulan en la Resolución SBS N° 2660-2015, que prevalece en caso de aparente contradicción.
+
+Art. 2. Definición de transferencia electrónica.
+Para efectos de la presente Resolución, se entiende por transferencia electrónica de fondos toda instrucción de pago cursada por medios electrónicos, incluyendo transferencias interbancarias, instrucciones SWIFT, pagos a través de sistemas de liquidación del Banco Central de Reserva del Perú (BCRP), y transferencias mediante plataformas de pago móvil o digital.
+
+TÍTULO II — REGLA DE VIAJE
+
+Art. 3. Obligación de transmisión de información del ordenante.
+Las empresas supervisadas que operen como institución financiera del ordenante en una transferencia electrónica de fondos deberán incluir y transmitir a la institución financiera siguiente en la cadena de pago la siguiente información: (a) nombre completo del ordenante; (b) número de cuenta o identificador único de transacción; (c) número de DNI, RUC u otro documento de identidad del ordenante; (d) domicilio o, alternativamente, fecha y lugar de nacimiento o número de pasaporte para personas naturales.
+
+Art. 4. Obligación de transmisión de información del beneficiario.
+Las empresas supervisadas deberán incluir en toda transferencia electrónica la información del beneficiario disponible: (a) nombre completo del beneficiario; (b) número de cuenta o identificador del beneficiario. Para transferencias hacia el extranjero que superen el equivalente a USD 1,000, se deberá incluir adicionalmente el número de identificación del beneficiario cuando esté disponible.
+
+Art. 5. Umbral de aplicación simplificada.
+Para transferencias internas de bajo monto, iguales o inferiores al equivalente a USD 200, se podrá transmitir únicamente el número de cuenta del ordenante y del beneficiario, sin requerir los datos de identificación completa. Para transferencias internacionales, esta simplificación no aplica independientemente del monto.
+
+Art. 6. Recepción de transferencias con información incompleta.
+Las empresas supervisadas que reciban una transferencia con información del ordenante o beneficiario incompleta deberán: (a) aplicar un análisis de riesgo de la transferencia con base en la información disponible; (b) solicitar la información faltante a la institución financiera remitente dentro de las veinticuatro (24) horas; (c) si la información no es recibida en setenta y dos (72) horas, bloquear los fondos y reportar conforme al procedimiento de la Circular SBS N° 001-2020; (d) para transferencias provenientes de jurisdicciones de riesgo conforme a la Resolución SBS N° 2660-2015 Art.16, el bloqueo será inmediato.
+
+TÍTULO III — BANCA CORRESPONSAL
+
+Art. 7. Due diligence en relaciones corresponsales.
+Las empresas supervisadas deberán realizar due diligence reforzado sobre las entidades con las que establezcan relaciones de corresponsalía, incluyendo: (a) evaluación del marco regulatorio y de supervisión al que está sujeta la entidad corresponsal; (b) evaluación del régimen de PLD/FT de la entidad corresponsal y de su efectividad; (c) verificación de que la entidad corresponsal no está incluida en listas de sanciones internacionales; (d) acuerdo escrito que establezca las responsabilidades de PLD/FT de cada parte.
+
+Art. 8. Revisión periódica de relaciones corresponsales.
+Las relaciones de corresponsalía deberán revisarse al menos anualmente. La revisión deberá incluir una evaluación actualizada del marco regulatorio de la entidad corresponsal y de la evolución de su jurisdicción en materia de riesgo LA/FT, con base en las publicaciones del GAFI y otros organismos internacionales.
+
+Art. 9. Prohibición de shell banks.
+Las empresas supervisadas tienen prohibido establecer o mantener relaciones de corresponsalía con instituciones financieras que no cuenten con presencia física efectiva en ninguna jurisdicción (shell banks) y que no estén sometidas a supervisión consolidada efectiva.
+
+Art. 10. Corresponsalía con jurisdicciones de riesgo.
+Las relaciones de corresponsalía con entidades domiciliadas en jurisdicciones de riesgo conforme a la Resolución SBS N° 2660-2015 Art.16 requerirán aprobación del directorio o consejo de administración de la empresa supervisada, y estarán sujetas a revisión semestral. Las relaciones con entidades en jurisdicciones de la lista negra del GAFI no están permitidas.
+
+TÍTULO IV — DISPOSICIONES FINALES
+
+Art. 11. Coordinación con obligaciones de reporte.
+El cumplimiento de la Regla de Viaje es independiente de las obligaciones de reporte de operaciones sospechosas establecidas en la Resolución SBS N° 2660-2015. La detección de una transferencia que incumple la Regla de Viaje y que presenta características de operación sospechosa genera ambas obligaciones de forma independiente.
+
+Art. 12. Vigencia.
+La presente Resolución entra en vigencia a los ciento veinte (120) días calendario siguientes a su publicación en el Diario Oficial El Peruano, para permitir la adecuación de los sistemas de procesamiento de pagos.
+
+Lima, a siete (7) días del mes de julio de 2020.
+
+SUPERINTENDENTE DE BANCA, SEGUROS Y AFP

@@ -1,0 +1,41 @@
+SUPERINTENDENCIA DE BANCA, SEGUROS Y AFP — SBS
+RESOLUCIÓN SBS N° 4838-2021
+Lima, 3 de septiembre de 2021
+
+ASUNTO: Modificación del Reglamento de Gestión de Riesgo de LA/FT — Actualización del Régimen de PEPs y Procedimientos de Reporte
+
+La Superintendencia de Banca, Seguros y AFP, en ejercicio de sus atribuciones legales y en cumplimiento de las Recomendaciones del GAFI actualizadas y de los compromisos asumidos por el Perú en el marco de la IV Ronda de Evaluaciones Mutuas, modifica los artículos 5, 10, 12 y 15 de la Resolución SBS N° 2660-2015 en los términos establecidos en la presente Resolución.
+
+TÍTULO I — ANTECEDENTES
+
+Art. 1. Motivación de la modificación.
+La IV Ronda de Evaluaciones Mutuas del GAFI identificó deficiencias en la implementación del régimen de PEPs en el sistema financiero peruano, en particular en lo relativo a: (a) la detección proactiva de PEPs en la cartera de clientes existente; (b) los criterios de permanencia de la clasificación de PEP una vez cesadas las funciones públicas; (c) la documentación del proceso de aprobación de operaciones de PEPs. La presente Resolución corrige estas deficiencias mediante modificaciones específicas a la Resolución SBS N° 2660-2015.
+
+Art. 2. Alcance de las modificaciones.
+Las modificaciones introducidas por la presente Resolución afectan específicamente los artículos 5, 10, 12 y 15 de la Resolución SBS N° 2660-2015. Las disposiciones no modificadas de la Resolución SBS N° 2660-2015 y de la Circular SBS N° 001-2020 continúan vigentes en su integridad.
+
+TÍTULO II — MODIFICACIONES A LA RESOLUCIÓN SBS N° 2660-2015
+
+Art. 3. Nuevo texto del Art. 5 de la Resolución SBS N° 2660-2015 — Detección proactiva de PEPs.
+El artículo 5 de la Resolución SBS N° 2660-2015 queda modificado en los siguientes términos: Las empresas supervisadas deberán implementar un proceso de detección proactiva de PEPs en toda su cartera de clientes, con una frecuencia mínima trimestral. Este proceso deberá utilizar herramientas automatizadas de consulta en bases de datos de PEPs actualizadas, que incluyan al menos: (a) la base de datos del RENIEC de funcionarios públicos de rango superior; (b) las listas de sanciones internacionales de OFAC, ONU y UE; (c) bases de datos comerciales especializadas de PEPs. Los resultados de la detección proactiva deberán ser revisados por el oficial de cumplimiento y documentados en el registro de PEPs de la empresa.
+
+Art. 4. Modificación del Art. 10 de la Resolución SBS N° 2660-2015 — Período de permanencia como PEP.
+El período de permanencia como PEP una vez cesadas las funciones públicas, establecido en el Art. 14 de la Resolución SBS N° 2660-2015 como de cinco (5) años, se mantiene inalterado. Sin embargo, se precisa que el cómputo del período de cinco (5) años se inicia desde la fecha efectiva del cese de funciones, y no desde la fecha de publicación del acto administrativo correspondiente. Las empresas supervisadas deberán implementar controles para verificar la fecha efectiva de cese de funciones.
+
+Art. 5. Nuevo texto del Art. 12 de la Resolución SBS N° 2660-2015 — Aprobación de operaciones de PEPs.
+El artículo 12 de la Resolución SBS N° 2660-2015, relativo al due diligence reforzado para PEPs, queda complementado con los siguientes requisitos adicionales de documentación: (a) cada aprobación de operación de PEP deberá registrarse en el sistema core bancario con un código de tipo de operación específico para PEPs; (b) el oficial de cumplimiento que aprueba la operación deberá dejar constancia escrita de los controles aplicados y la justificación de la aprobación; (c) las aprobaciones de operaciones de PEPs superiores al umbral establecido en el Art. 25 de la Resolución SBS N° 2660-2015 requerirán adicionalmente la aprobación del gerente general o del órgano de gobierno equivalente; (d) el sistema de registro deberá permitir la trazabilidad completa del proceso de aprobación, incluyendo los tiempos de cada etapa. Los procedimientos operativos para el registro de estas aprobaciones se detallan en la Circular SBS N° 001-2020 Art.7, que deberá interpretarse conjuntamente con el presente artículo.
+
+Art. 6. Nuevo texto del Art. 15 de la Resolución SBS N° 2660-2015 — Actualización del procedimiento de reporte.
+El artículo 15 de la Resolución SBS N° 2660-2015 queda modificado en los siguientes términos: El reporte de operaciones con contrapartes en jurisdicciones no cooperantes deberá realizarse a través del Portal de Reporte Electrónico de la UIF-Perú (PREUIF) establecido en la Circular SBS N° 001-2020, utilizando el formulario específico para operaciones con jurisdicciones GAFI. El plazo de cinco (5) días hábiles para el reporte establecido en la Resolución SBS N° 2660-2015 Art.18 permanece inalterado.
+
+TÍTULO III — DISPOSICIONES TRANSITORIAS Y FINALES
+
+Art. 7. Adecuación de sistemas.
+Las empresas supervisadas dispondrán de ciento ochenta (180) días calendario contados desde la publicación de la presente Resolución para adecuar sus sistemas de registro y monitoreo a los nuevos requisitos de documentación y trazabilidad establecidos en el Art. 5 de la presente Resolución.
+
+Art. 8. Vigencia.
+La presente Resolución entra en vigencia a los treinta (30) días calendario siguientes a su publicación en el Diario Oficial El Peruano, con excepción de las disposiciones del Art. 7, que entran en vigencia en los plazos allí establecidos.
+
+Lima, a tres (3) días del mes de septiembre de 2021.
+
+SUPERINTENDENTE DE BANCA, SEGUROS Y AFP

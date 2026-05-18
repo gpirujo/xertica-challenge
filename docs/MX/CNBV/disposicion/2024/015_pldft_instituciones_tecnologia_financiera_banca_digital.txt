@@ -1,0 +1,60 @@
+COMISIÓN NACIONAL BANCARIA Y DE VALORES — CNBV
+DISPOSICIÓN 015/2024
+Ciudad de México, 8 de marzo de 2024
+
+ASUNTO: Obligaciones de PLD/FT para Instituciones de Tecnología Financiera y Banca Digital
+
+La presente Disposición establece los requisitos específicos de Prevención de Lavado de Dinero y Financiamiento al Terrorismo (PLD/FT) aplicables a las instituciones de tecnología financiera (ITF) y a los canales digitales de la banca tradicional, complementando el marco normativo vigente establecido en la Disposición 012/2022 y la Disposición 008/2023.
+
+TÍTULO PRIMERO — DISPOSICIONES GENERALES
+
+Art. 1. Fundamento y alcance.
+La presente Disposición se emite en ejercicio de las facultades conferidas a la CNBV por la Ley para Regular las Instituciones de Tecnología Financiera (Ley Fintech) y el artículo 115 de la Ley de Instituciones de Crédito. Sus disposiciones son aplicables a: instituciones de fondos de pago electrónico (IFPE), instituciones de financiamiento colectivo (IFC), y a los canales digitales de todas las entidades supervisadas por la CNBV. La aplicación de esta Disposición es complementaria y no sustituye las obligaciones establecidas en la Disposición 012/2022 ni en la Disposición 008/2023.
+
+Art. 2. Principio de neutralidad tecnológica.
+Las obligaciones de PLD/FT aplican con independencia del canal o tecnología utilizada para la prestación del servicio financiero. Las ITF y los canales digitales de la banca tradicional no podrán invocar la naturaleza tecnológica de sus operaciones para exceptuarse del cumplimiento de las normas establecidas en la presente Disposición ni en las Disposiciones 012/2022 y 008/2023.
+
+Art. 3. Definición de canal digital.
+Para efectos de la presente Disposición, se entiende por canal digital todo medio de acceso a servicios financieros que opere a través de interfaces digitales, incluyendo aplicaciones móviles, plataformas web, APIs de banca abierta, y sistemas de pago electrónico, sin que medie interacción presencial entre el cliente y la entidad financiera.
+
+TÍTULO SEGUNDO — IDENTIFICACIÓN EN ENTORNOS DIGITALES
+
+Art. 4. Onboarding digital y KYC remoto.
+Las entidades financieras que realicen procesos de incorporación de clientes de forma totalmente digital (onboarding digital) deberán implementar mecanismos de verificación de identidad que ofrezcan garantías equivalentes a la verificación presencial, utilizando: reconocimiento biométrico facial con prueba de vida, verificación documental automatizada con tecnología OCR validada, y consulta en tiempo real de bases de datos gubernamentales. Los mecanismos tecnológicos utilizados deberán ser validados previamente por la CNBV.
+
+Art. 5. Geolocalización en el proceso de identificación.
+Durante el proceso de onboarding digital y en operaciones de alto riesgo, las entidades financieras deberán registrar la geolocalización del dispositivo utilizado. La geolocalización no podrá ser el único factor de verificación, pero deberá ser parte del análisis de riesgo de la operación. Las operaciones realizadas desde jurisdicciones de riesgo identificadas conforme a la Disposición 008/2023 Art.15 activarán automáticamente el protocolo de debida diligencia reforzada.
+
+Art. 6. Verificación digital del beneficiario final.
+Los procesos de verificación del beneficiario final establecidos en la Disposición 012/2022 Art.5 podrán realizarse de forma digital, siempre que se utilicen los mecanismos de verificación de identidad aprobados por la CNBV conforme al Art. 4 de la presente Disposición. La verificación digital deberá documentarse con el mismo nivel de detalle que la verificación presencial, incluyendo los metadatos de la sesión de verificación.
+
+TÍTULO TERCERO — MONITOREO TRANSACCIONAL EN TIEMPO REAL
+
+Art. 7. Sistema de monitoreo basado en inteligencia artificial.
+Las ITF y las entidades que operen canales digitales con volumen transaccional superior a cien mil (100,000) operaciones mensuales deberán implementar sistemas de monitoreo transaccional basados en modelos de inteligencia artificial o aprendizaje automático, capaces de detectar patrones anómalos en tiempo real. Estos sistemas deberán ser auditados anualmente por un tercero independiente.
+
+Art. 8. Escalamiento digital de operaciones de PEPs.
+Los procedimientos de escalamiento obligatorio de operaciones de PEPs establecidos en la Disposición 008/2023 Art.8 deberán implementarse en los canales digitales con un tiempo máximo de respuesta del oficial de cumplimiento de dos (2) horas hábiles, reduciendo el plazo general de cuatro (4) horas establecido en la Disposición 008/2023 para el entorno digital, dado el mayor riesgo de velocidad de las operaciones digitales. Las entidades deberán implementar alertas automatizadas al oficial de cumplimiento a través de múltiples canales (correo electrónico, SMS, notificación push en aplicación de compliance).
+
+Art. 9. Alertas automáticas por comportamiento anómalo.
+Los sistemas de monitoreo de las entidades digitales deberán generar alertas automáticas para los siguientes patrones: (a) múltiples intentos de transacción fallidos desde el mismo dispositivo; (b) cambio de geolocalización mayor a 500 km en menos de cuatro (4) horas; (c) uso de VPN o proxies en operaciones que superen el umbral establecido en la Disposición 008/2023 Art.22; (d) patrones de operación consistentes con técnicas de evasión de controles automáticos.
+
+TÍTULO CUARTO — TRANSFERENCIAS DIGITALES INTERNACIONALES
+
+Art. 10. Documentación digital para transferencias internacionales.
+Los requisitos de documentación del origen de fondos para transferencias internacionales mayores a USD 50,000 establecidos en la Disposición 008/2023 Art.22 podrán cumplirse mediante documentos digitales con firma electrónica avanzada (FEA) conforme a la normativa de la Secretaría de Economía. Los documentos digitales tendrán la misma validez que los documentos físicos notariados, siempre que cumplan con los estándares técnicos de FEA establecidos por la CNBV.
+
+Art. 11. Conservación de evidencia digital.
+Toda la documentación digital generada en el cumplimiento de las obligaciones de PLD/FT deberá conservarse en sistemas de almacenamiento inmutable durante los plazos establecidos en la Disposición 008/2023 Art.10. La conservación deberá garantizar la integridad de los documentos mediante mecanismos criptográficos de sellado de tiempo (timestamping) conforme a estándares RFC 3161.
+
+TÍTULO QUINTO — DISPOSICIONES FINALES
+
+Art. 12. Coordinación con disposiciones vigentes.
+La presente Disposición es complementaria a las Disposiciones 012/2022 y 008/2023. En caso de aparente contradicción entre las disposiciones de estos instrumentos, prevalecerá la norma más específica para el canal digital. En ausencia de norma específica, aplican en su integridad las Disposiciones 012/2022 y 008/2023.
+
+Art. 13. Vigencia.
+La presente Disposición entra en vigor a los ciento veinte (120) días naturales siguientes a su publicación en el Diario Oficial de la Federación, para dar tiempo suficiente a las entidades para adecuar sus sistemas tecnológicos.
+
+Ciudad de México, a ocho (8) días del mes de marzo de 2024.
+
+PRESIDENTE CNBV

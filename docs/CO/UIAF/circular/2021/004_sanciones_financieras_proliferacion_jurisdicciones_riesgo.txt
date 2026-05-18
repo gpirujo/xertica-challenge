@@ -1,0 +1,52 @@
+UNIDAD DE INFORMACIÓN Y ANÁLISIS FINANCIERO — UIAF
+CIRCULAR EXTERNA 004 DE 2021
+Bogotá, D.C., 22 de octubre de 2021
+
+ASUNTO: Sanciones Financieras Internacionales, Proliferación de Armas y Control de Jurisdicciones de Riesgo
+
+La presente circular establece los requisitos para la implementación de sanciones financieras internacionales vinculadas a la financiación del terrorismo y la proliferación de armas de destrucción masiva, y complementa el régimen de control de jurisdicciones de riesgo establecido en la Circular 001/2021, en cumplimiento de las obligaciones internacionales de Colombia y las Recomendaciones del GAFI 6 y 7.
+
+CAPÍTULO I — DISPOSICIONES GENERALES
+
+Art. 1. Objeto y fundamento.
+La presente circular se expide en cumplimiento de las Resoluciones 1267, 1373 y 1718 del Consejo de Seguridad de las Naciones Unidas y sus sucesoras, y de las Recomendaciones 6 y 7 del GAFI relativas a sanciones financieras dirigidas al terrorismo y la proliferación. Se expide con fundamento en la Ley 526 de 1999 y el Decreto 1674 de 2014 sobre sanciones financieras en Colombia. Las disposiciones aquí contenidas son complementarias y no derogan las obligaciones establecidas en la Circular 001/2021, que continúa vigente en su integridad.
+
+Art. 2. Definición de sanción financiera dirigida.
+Para efectos de la presente circular, se entiende por sanción financiera dirigida la medida de congelamiento inmediato de activos y la prohibición de poner fondos y recursos económicos a disposición de personas o entidades incluidas en listas de sanciones financieras, de conformidad con las Resoluciones del Consejo de Seguridad de la ONU y los actos equivalentes de la comunidad internacional aplicables en Colombia.
+
+Art. 3. Distinción respecto a PEPs.
+Las obligaciones derivadas de las sanciones financieras internacionales son independientes y adicionales a las obligaciones en materia de PEPs establecidas en la Circular 001/2021 Art.15 y complementadas por la Circular 002/2022 Art.11. Una persona puede ser simultáneamente un PEP y estar sujeta a sanciones financieras, en cuyo caso se aplicarán acumulativamente las obligaciones de ambos regímenes.
+
+CAPÍTULO II — CONTROL DE LISTAS DE SANCIONES
+
+Art. 4. Listas de sanciones de consulta obligatoria.
+Los sujetos obligados deberán consultar las siguientes listas de sanciones en el marco de sus procesos de debida diligencia: (a) Lista consolidada de sanciones del Consejo de Seguridad de la ONU; (b) Lista de Specially Designated Nationals (SDN) de la OFAC; (c) Lista de personas y entidades sujetas a sanciones de la UE; (d) Lista de personas bloqueadas emitida por la UIAF en coordinación con la Secretaría Técnica del Sistema Nacional de Lucha contra el Lavado de Activos. Los sujetos obligados podrán complementar estas listas con bases de datos comerciales de sanciones.
+
+Art. 5. Frecuencia de consulta de listas.
+Las listas de sanciones deberán consultarse: (a) al inicio de toda relación comercial; (b) antes de procesar toda transferencia de fondos con independencia de su monto; (c) de forma continua mediante sistemas automatizados de monitoreo con actualización diaria. Las listas deberán actualizarse en los sistemas de los sujetos obligados dentro de las veinticuatro (24) horas siguientes a cualquier modificación publicada por los organismos emisores.
+
+Art. 6. Procedimiento ante coincidencia positiva.
+Ante una coincidencia positiva con una lista de sanciones, el sujeto obligado deberá: (a) congelar de inmediato los activos del sujeto afectado, sin excepción y sin demora; (b) comunicar el congelamiento a la UIAF dentro de las veinticuatro (24) horas siguientes mediante el canal de reporte de la Circular 001/2021 Art.3; (c) no poner fondos adicionales a disposición del sujeto afectado; (d) abstenerse de alertar al sujeto afectado sobre el congelamiento. El congelamiento de activos es una obligación de cumplimiento sin demora y no está sujeta a autorización previa.
+
+Art. 7. Gestión de falsos positivos.
+Cuando una coincidencia resulte ser un falso positivo por homonimia u otras causas, el sujeto obligado deberá documentar la revisión realizada y conservarla durante los plazos establecidos en la Circular 001/2021 Art.4.
+
+CAPÍTULO III — JURISDICCIONES DE RIESGO
+
+Art. 8. Lista de jurisdicciones de riesgo.
+Los sujetos obligados deberán mantener una lista interna de jurisdicciones de riesgo actualizada con base en: (a) las publicaciones periódicas del GAFI sobre jurisdicciones de alto riesgo y no cooperantes; (b) las comunicaciones de la UIAF sobre jurisdicciones de especial atención para Colombia; (c) la evaluación propia de riesgo del sujeto obligado. La actualización deberá realizarse dentro de los cinco (5) días hábiles siguientes a cada publicación del GAFI.
+
+Art. 9. Medidas ante operaciones con jurisdicciones de riesgo.
+Las operaciones con contrapartes domiciliadas en jurisdicciones de riesgo están sujetas a las medidas de la Circular 001/2021 Art.21. Adicionalmente, deberán aplicarse: (a) debida diligencia reforzada conforme a la Circular 001/2021 Art.7; (b) reporte obligatorio con independencia del monto conforme a la Circular 001/2021 Art.3; (c) aprobación del oficial de cumplimiento antes de ejecutar la operación.
+
+CAPÍTULO IV — RÉGIMEN SANCIONATORIO
+
+Art. 10. Sanciones por incumplimiento en materia de listas.
+El incumplimiento de la obligación de congelamiento de activos de personas sancionadas es considerado la infracción de mayor gravedad en el régimen de LA/FT colombiano y dará lugar a las sanciones máximas establecidas en la Circular 001/2021 Art.19, independientemente del monto involucrado.
+
+Art. 11. Vigencia.
+La presente circular rige a partir de los cuarenta y cinco (45) días calendario siguientes a su publicación en el Boletín Oficial.
+
+Expedida en Bogotá, D.C., a los veintidós (22) días del mes de octubre de 2021.
+
+DIRECTOR UIAF

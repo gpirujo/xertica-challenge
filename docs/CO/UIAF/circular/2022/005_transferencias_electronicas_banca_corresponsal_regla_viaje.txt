@@ -1,0 +1,55 @@
+UNIDAD DE INFORMACIÓN Y ANÁLISIS FINANCIERO — UIAF
+CIRCULAR EXTERNA 005 DE 2022
+Bogotá, D.C., 5 de diciembre de 2022
+
+ASUNTO: Transferencias Electrónicas de Fondos, Banca Corresponsal y Regla de Viaje
+
+La presente circular establece los requisitos para el cumplimiento de la Regla de Viaje del GAFI en transferencias electrónicas de fondos y regula las obligaciones de debida diligencia en relaciones de banca corresponsal, en el marco de la normativa de prevención de LA/FT establecida en las Circulares 001/2021, 002/2022 y 004/2021.
+
+CAPÍTULO I — DISPOSICIONES GENERALES
+
+Art. 1. Objeto y fundamento.
+La presente circular se expide en cumplimiento de la Recomendación 16 del GAFI sobre transferencias electrónicas (Regla de Viaje) y la Recomendación 13 sobre banca corresponsal, adoptadas por Colombia en el marco de su membresía en el Grupo de Acción Financiera de Latinoamérica (GAFILAT). Las disposiciones de las Circulares 001/2021, 002/2022 y 004/2021 que no sean expresamente modificadas continúan vigentes.
+
+Art. 2. Definición de transferencia electrónica de fondos.
+Para efectos de la presente circular, se entiende por transferencia electrónica de fondos toda instrucción de pago enviada por medios electrónicos por una entidad financiera en nombre de un ordenante, con el fin de poner fondos a disposición de un beneficiario en la misma entidad o en una entidad diferente, nacional o extranjera. Esta definición incluye las transferencias realizadas a través de sistemas de pago interbancario, redes internacionales (SWIFT, corresponsales), y plataformas de pago electrónico.
+
+Art. 3. Definición de Regla de Viaje.
+La Regla de Viaje es la obligación de transmitir información de identificación del ordenante y del beneficiario en toda transferencia electrónica de fondos, de modo que esta información "viaje" junto con la transferencia a lo largo de toda la cadena de pago hasta llegar a la entidad financiera del beneficiario final.
+
+CAPÍTULO II — REGLA DE VIAJE
+
+Art. 4. Información del ordenante.
+En toda transferencia electrónica de fondos, la entidad financiera del ordenante deberá incluir y transmitir la siguiente información: (a) nombre completo del ordenante; (b) número de cuenta del ordenante o identificador único de la transacción; (c) número de identificación del ordenante (cédula, NIT o equivalente); (d) dirección del ordenante o, alternativamente, fecha y lugar de nacimiento o número de identificación oficial.
+
+Art. 5. Información del beneficiario.
+En toda transferencia electrónica de fondos, la entidad financiera del ordenante deberá incluir y transmitir la siguiente información del beneficiario: (a) nombre completo del beneficiario; (b) número de cuenta del beneficiario o identificador único de la transacción. Para transferencias internacionales superiores al umbral de la Circular 002/2022 Art.5, la información deberá incluir adicionalmente el número de identificación del beneficiario.
+
+Art. 6. Transferencias por lotes.
+En las transferencias por lotes (batch payments), la información del ordenante deberá incluirse en el archivo de lote y la información de cada beneficiario individual deberá ser trazable mediante el número de transacción individual. La entidad financiera que recibe el lote debe poder acceder a la información de cada transacción individual bajo requerimiento de la UIAF.
+
+Art. 7. Recepción de transferencias sin información completa.
+Cuando la entidad financiera receptora reciba una transferencia que no contenga la información requerida por los Art. 4 y 5, deberá: (a) intentar obtener la información faltante de la entidad remitente; (b) si no obtiene la información en el plazo de cuarenta y ocho (48) horas, bloquear los fondos; (c) reportar la situación a la UIAF si la información faltante persiste más de setenta y dos (72) horas. Las transferencias de jurisdicciones de riesgo identificadas conforme a la Circular 004/2021 Art.8 sin información completa deberán bloquearse de inmediato, sin esperar el plazo de cuarenta y ocho (48) horas.
+
+CAPÍTULO III — BANCA CORRESPONSAL
+
+Art. 8. Debida diligencia en relaciones corresponsales.
+Los sujetos obligados que establezcan relaciones de banca corresponsal deberán realizar debida diligencia reforzada sobre las entidades corresponsales, incluyendo: (a) verificación del marco regulatorio y supervisor al que está sujeta la entidad corresponsal; (b) evaluación del régimen de PLD/FT de la entidad corresponsal; (c) verificación de que la entidad corresponsal no esté incluida en las listas de sanciones de la Circular 004/2021 Art.4; (d) obtención de información sobre los controles de PLD/FT implementados por la entidad corresponsal.
+
+Art. 9. Prohibición de corresponsalía con bancos pantalla.
+Los sujetos obligados tienen prohibido establecer o mantener relaciones de banca corresponsal con bancos pantalla (shell banks), definidos como entidades financieras que no tienen presencia física en ninguna jurisdicción y que no están sometidas a supervisión consolidada efectiva.
+
+Art. 10. Jurisdicciones de alto riesgo en banca corresponsal.
+Las relaciones de corresponsalía con entidades domiciliadas en jurisdicciones de riesgo conforme a la Circular 004/2021 Art.8 requieren aprobación de la junta directiva o el órgano equivalente del sujeto obligado, y están sujetas a revisión anual. La aprobación deberá documentarse con la justificación de la relación y los controles adicionales implementados.
+
+CAPÍTULO IV — DISPOSICIONES FINALES
+
+Art. 11. Aplicación acumulativa con umbrales de reporte.
+Las obligaciones de la Regla de Viaje aplican a todas las transferencias electrónicas de fondos, independientemente del monto. Su cumplimiento es independiente y adicional a los umbrales de reporte establecidos en la Circular 002/2022 Art.5.
+
+Art. 12. Vigencia.
+La presente circular rige a partir de los noventa (90) días calendario siguientes a su publicación en el Boletín Oficial, para dar tiempo a los sujetos obligados de adecuar sus sistemas de procesamiento de transferencias.
+
+Expedida en Bogotá, D.C., a los cinco (5) días del mes de diciembre de 2022.
+
+DIRECTOR UIAF

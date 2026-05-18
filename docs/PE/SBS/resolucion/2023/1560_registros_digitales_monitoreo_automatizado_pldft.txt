@@ -1,0 +1,66 @@
+SUPERINTENDENCIA DE BANCA, SEGUROS Y AFP — SBS
+RESOLUCIÓN SBS N° 1560-2023
+Lima, 20 de marzo de 2023
+
+ASUNTO: Gestión de Registros Digitales y Sistemas de Monitoreo Automatizado en el Marco del Sistema de Prevención de LA/FT
+
+La Superintendencia de Banca, Seguros y AFP establece los requisitos para la gestión de registros digitales y el uso de sistemas de monitoreo automatizado en el Sistema de Prevención de Lavado de Activos y Financiamiento del Terrorismo, complementando el marco normativo de la Resolución SBS N° 2660-2015, modificada por la Resolución SBS N° 4838-2021.
+
+TÍTULO I — DISPOSICIONES GENERALES
+
+Art. 1. Objeto.
+La presente Resolución establece los requisitos técnicos y operativos para: (a) la gestión de registros digitales relacionados con el Sistema de Prevención de LA/FT; (b) el uso de sistemas de monitoreo automatizado y modelos de inteligencia artificial en la detección de operaciones sospechosas; (c) la gobernanza y supervisión de modelos automatizados de calificación de riesgo.
+
+Art. 2. Ámbito de aplicación.
+La presente Resolución aplica a todas las empresas supervisadas por la SBS que utilicen sistemas automatizados de monitoreo transaccional o modelos de inteligencia artificial como parte de su Sistema de Prevención de LA/FT. Se considera sistema automatizado de monitoreo transaccional todo sistema que, sin intervención humana directa en cada caso, genere alertas o clasificaciones de riesgo sobre operaciones o clientes.
+
+Art. 3. Relación con normativa vigente.
+La presente Resolución complementa la Resolución SBS N° 2660-2015 y la Resolución SBS N° 4838-2021. Las obligaciones sustantivas de reporte, debida diligencia y tratamiento de PEPs establecidas en esas Resoluciones no son modificadas por la presente, que regula exclusivamente los aspectos técnicos y de gobernanza de los sistemas automatizados.
+
+TÍTULO II — GESTIÓN DE REGISTROS DIGITALES
+
+Art. 4. Requisitos de inmutabilidad.
+Los registros digitales generados en el cumplimiento de las obligaciones del Sistema de Prevención de LA/FT deberán almacenarse en sistemas que garanticen su inmutabilidad mediante: (a) controles de acceso que impidan la modificación o eliminación no autorizada; (b) mecanismos de sellado de tiempo (timestamping) conforme a estándares internacionales reconocidos; (c) registros de auditoría (audit logs) de todos los accesos y modificaciones, incluyendo la identidad del usuario, la fecha y hora, y la operación realizada.
+
+Art. 5. Backup y continuidad.
+Las empresas supervisadas deberán implementar políticas de respaldo (backup) de los registros digitales de PLD/FT que garanticen: (a) backup diario incremental y backup semanal completo; (b) almacenamiento en al menos dos (2) ubicaciones físicamente separadas; (c) tiempo de recuperación máximo de cuatro (4) horas para los sistemas de monitoreo y doce (12) horas para el archivo de registros históricos.
+
+Art. 6. Exportabilidad para supervisión.
+Las empresas supervisadas deberán garantizar que los registros digitales puedan ser exportados en formatos estándar (CSV, XML, JSON) para su entrega a la SBS o a la UIF-Perú en el marco de requerimientos de supervisión o investigación. La entrega deberá ser posible dentro de las cuarenta y ocho (48) horas siguientes al requerimiento.
+
+TÍTULO III — SISTEMAS DE MONITOREO AUTOMATIZADO
+
+Art. 7. Registro de modelos automatizados.
+Las empresas supervisadas deberán mantener un Registro de Modelos de PLD/FT que documente, para cada modelo de detección automatizada utilizado: (a) descripción del modelo, incluyendo el tipo de algoritmo y las variables utilizadas; (b) fecha de implementación y versión vigente; (c) resultados de las pruebas de validación realizadas antes de su implementación; (d) frecuencia de reentrenamiento o actualización; (e) nombre y cargo del responsable técnico del modelo.
+
+Art. 8. Validación previa de modelos.
+Todo modelo automatizado de detección de operaciones sospechosas o de calificación de riesgo de clientes deberá ser validado por una función independiente (validación interna o auditoría) antes de su implementación en producción. La validación deberá incluir: (a) pruebas de precisión en conjuntos de datos históricos; (b) análisis de sesgos por segmento de cliente; (c) verificación de que el modelo no sub-detecta sistemáticamente categorías de clientes de alto riesgo, incluyendo especialmente PEPs, clientes vinculados a jurisdicciones de riesgo y clientes con antecedentes de reporte previo.
+
+Art. 9. Monitoreo de desempeño en producción.
+Las empresas supervisadas deberán monitorear el desempeño de sus modelos automatizados en producción mediante: (a) seguimiento mensual de la tasa de falsos positivos y falsos negativos estimada; (b) comparación trimestral de la distribución de scores de riesgo con la distribución de referencia del período de validación; (c) revisión semestral de la efectividad del modelo por el oficial de cumplimiento y por auditoría interna.
+
+Art. 10. Revisión humana obligatoria para decisiones de alto impacto.
+Las decisiones de alto impacto generadas por sistemas automatizados, incluyendo la clasificación de un cliente como PEP de acuerdo a la Resolución SBS N° 2660-2015 Art.10 modificado por la Resolución SBS N° 4838-2021, la clasificación de una operación como sospechosa, y la recomendación de cierre de cuenta, deberán ser siempre revisadas y confirmadas por un analista humano antes de ejecutarse. Los sistemas automatizados podrán generar recomendaciones, pero no podrán ejecutar estas decisiones de forma autónoma.
+
+Art. 11. Conservación de evidencia de decisiones automatizadas.
+Las empresas supervisadas deberán conservar, para cada decisión generada por un sistema automatizado, los siguientes elementos: (a) el score o clasificación generada por el modelo; (b) las variables de entrada utilizadas para generar la decisión; (c) la identidad del analista humano que revisó la decisión; (d) el resultado de la revisión humana (confirmación, modificación o rechazo de la recomendación automatizada). Esta documentación deberá conservarse durante los plazos establecidos en la Resolución SBS N° 2660-2015 Art.26.
+
+TÍTULO IV — GOBERNANZA DE MODELOS
+
+Art. 12. Responsabilidad del oficial de cumplimiento.
+El oficial de cumplimiento es responsable de la supervisión operativa de los modelos automatizados de PLD/FT, incluyendo la aprobación de cambios en los parámetros de los modelos y la decisión de suspender un modelo cuyo desempeño haya degradado significativamente.
+
+Art. 13. Revisión ante cambios regulatorios.
+Cuando se publique una norma que modifique las obligaciones del Sistema de Prevención de LA/FT, las empresas supervisadas deberán evaluar dentro de los treinta (30) días hábiles siguientes si los modelos automatizados vigentes son compatibles con los nuevos requisitos y, en caso negativo, iniciar el proceso de actualización o revalidación del modelo.
+
+TÍTULO V — DISPOSICIONES FINALES
+
+Art. 14. Plazo de adecuación.
+Las empresas supervisadas que ya utilicen sistemas automatizados de monitoreo a la fecha de publicación de la presente Resolución dispondrán de un plazo de doscientos cuarenta (240) días calendario para adecuarse a los requisitos establecidos en el Título III.
+
+Art. 15. Vigencia.
+La presente Resolución entra en vigencia a los sesenta (60) días calendario siguientes a su publicación en el Diario Oficial El Peruano.
+
+Lima, a veinte (20) días del mes de marzo de 2023.
+
+SUPERINTENDENTE DE BANCA, SEGUROS Y AFP

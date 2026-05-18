@@ -1,0 +1,64 @@
+UNIDAD DE INFORMACIÓN Y ANÁLISIS FINANCIERO — UIAF
+CIRCULAR EXTERNA 001 DE 2021
+Bogotá, D.C., 15 de marzo de 2021
+
+ASUNTO: Reporte de Operaciones Sospechosas (ROS) y Obligaciones de Debida Diligencia
+
+La presente circular establece los lineamientos para el reporte de operaciones sospechosas y las obligaciones de debida diligencia que deben cumplir los sujetos obligados en el marco de la normativa de prevención de Lavado de Activos y Financiación del Terrorismo (LA/FT).
+
+CAPÍTULO I — DISPOSICIONES GENERALES
+
+Art. 1. Objeto y ámbito de aplicación.
+La presente circular aplica a todas las entidades vigiladas por la Superintendencia Financiera de Colombia, así como a los sujetos obligados definidos en la Ley 526 de 1999 y sus modificaciones. Las disposiciones aquí contenidas son de obligatorio cumplimiento a partir de la fecha de su publicación en el Boletín Oficial.
+
+Art. 2. Definiciones operativas.
+Para efectos de la presente circular, se entiende por operación sospechosa aquella transacción que, por su naturaleza, monto, frecuencia o las circunstancias que la rodean, no guarda correspondencia con el perfil económico, financiero o transaccional del cliente. Los sujetos obligados deberán contar con sistemas de monitoreo continuo capaces de identificar estas operaciones de forma automatizada. Ver también Art. 8 sobre criterios de umbrales monetarios.
+
+Art. 3. Reporte de Operaciones Sospechosas — Plazo máximo.
+Toda transacción calificada como inusual o sospechosa deberá ser reportada a la UIAF dentro de las veinticuatro (24) horas siguientes a la detección de la operación. El reporte deberá realizarse a través del sistema electrónico habilitado por la UIAF y deberá incluir: identificación completa del cliente, descripción de la operación, monto en moneda local y equivalente en dólares estadounidenses, fecha y hora de la transacción, y la justificación técnica que motivó la calificación como sospechosa. El incumplimiento de este plazo acarrea las sanciones previstas en el Art. 19 de la presente circular. Este artículo complementa lo dispuesto en el Art. 15 de la presente circular respecto a PEPs. Los procedimientos técnicos para la presentación electrónica de reportes han sido actualizados por la Circular 003/2023 Art.4.
+
+Art. 4. Conservación de registros.
+Los sujetos obligados deberán conservar los registros de todas las operaciones por un período mínimo de diez (10) años contados a partir de la fecha de la transacción o de la terminación de la relación comercial, lo que ocurra último. Esta obligación aplica también a los intentos fallidos de transacción cuando el monto supere el umbral definido en el Art. 18.
+
+CAPÍTULO II — DEBIDA DILIGENCIA DEL CLIENTE
+
+Art. 5. Identificación y verificación.
+Los sujetos obligados deberán identificar y verificar la identidad de sus clientes antes de iniciar cualquier relación comercial. La verificación debe realizarse mediante documentos originales o copias certificadas. Para personas jurídicas, la debida diligencia deberá incluir la identificación del beneficiario final de conformidad con lo establecido en el Art. 8 de la presente circular.
+
+Art. 6. Debida diligencia simplificada.
+Podrá aplicarse debida diligencia simplificada cuando el nivel de riesgo del cliente sea bajo, conforme a la metodología de calificación de riesgo aprobada por la Junta Directiva del sujeto obligado. En ningún caso se aplicará debida diligencia simplificada a personas políticamente expuestas. Ver también Art. 15.
+
+Art. 7. Debida diligencia reforzada.
+Se aplicará debida diligencia reforzada en los siguientes casos: (a) personas políticamente expuestas y sus familiares hasta segundo grado de consanguinidad; (b) operaciones con contrapartes en jurisdicciones de alto riesgo identificadas por el GAFI; (c) clientes con antecedentes de reporte previo ante la UIAF; (d) operaciones que superen los umbrales establecidos en el Art. 18 y Art. 21. La debida diligencia reforzada deberá ser documentada y aprobada por el oficial de cumplimiento.
+
+Art. 8. Identificación del beneficiario final.
+Toda persona jurídica deberá declarar la identidad de su beneficiario final, entendido como la persona natural que ejerce el control efectivo de la entidad o que posee más del veinticinco por ciento (25%) de la participación accionaria. Esta información deberá actualizarse dentro de los treinta (30) días siguientes a cualquier cambio en la estructura de propiedad.
+
+CAPÍTULO III — UMBRALES Y ALERTAS AUTOMÁTICAS
+
+Art. 15. Personas Políticamente Expuestas (PEPs).
+Las operaciones realizadas por personas políticamente expuestas, sus cónyuges, compañeros permanentes y familiares hasta segundo grado de consanguinidad requieren revisión humana obligatoria en toda operación, independientemente del monto. El oficial de cumplimiento designado deberá revisar y autorizar manualmente cada transacción. Esta disposición complementa el Art. 3 (reporte en 24h) y el Art. 18 (umbral monetario), y aplica con mayor rigor cuando se presentan simultáneamente las condiciones de PEP y superación del umbral establecido. El incumplimiento de la revisión humana obligatoria se considera falta grave y deberá reportarse a la Superintendencia Financiera de Colombia. Los criterios de clasificación de PEPs han sido ampliados por la Circular 002/2022 Art.11 y la Circular 003/2023 Art.7.
+
+Art. 16. Monitoreo de transacciones frecuentes.
+Cuando un cliente realice tres (3) o más transacciones en un período de veinticuatro (24) horas cuyo monto agregado supere el umbral definido en el Art. 18, el sistema deberá generar automáticamente una alerta de monitoreo para revisión del área de cumplimiento.
+
+Art. 17. Operaciones fraccionadas.
+Se presume la intención de evasión de controles cuando se detecte el fraccionamiento deliberado de operaciones que en conjunto superen el umbral del Art. 18. Los sujetos obligados deberán implementar controles para detectar operaciones vinculadas realizadas por el mismo cliente o por clientes con relaciones conocidas. El período de cómputo para operaciones fraccionadas fue ampliado a setenta y dos (72) horas por la Circular 002/2022 Art.6.
+
+Art. 18. Umbral de reporte automático — Transferencias.
+Las transferencias de fondos, nacionales o internacionales, por montos iguales o superiores a USD 10,000 (diez mil dólares estadounidenses) o su equivalente en moneda local, deberán generar de forma automática una alerta en el sistema de monitoreo. Esta disposición ha sido actualizada por la Circular 002/2022 Art.5 y Art.12, que modifica el mecanismo de cálculo del equivalente en moneda local. Ver también Art. 3 para los plazos de reporte y Art. 21 para jurisdicciones de riesgo.
+
+Art. 19. Sanciones por incumplimiento.
+El incumplimiento de las obligaciones establecidas en la presente circular dará lugar a las sanciones previstas en el artículo 102 del Estatuto Orgánico del Sistema Financiero, que incluyen multas desde 200 hasta 20,000 salarios mínimos legales mensuales vigentes, y en casos graves, la revocación de la licencia de funcionamiento. El régimen sancionatorio ha sido complementado por la Circular 003/2023 Art.9 en lo relativo a sanciones por fallas tecnológicas en el sistema de reporte.
+
+CAPÍTULO IV — JURISDICCIONES DE RIESGO
+
+Art. 21. Operaciones con jurisdicciones de riesgo.
+Los sujetos obligados deberán aplicar medidas reforzadas de debida diligencia en todas las operaciones con contrapartes domiciliadas en jurisdicciones identificadas por el GAFI como no cooperantes o de alto riesgo. La lista de jurisdicciones de riesgo se actualizará de conformidad con las publicaciones periódicas del GAFI. Las operaciones con estas contrapartes deberán ser reportadas conforme al procedimiento del Art. 3, independientemente del monto involucrado.
+
+Art. 22. Vigencia y derogatorias.
+La presente circular rige a partir de la fecha de su publicación. Deroga la Circular 005/2019 en su totalidad. Los plazos de adecuación para los sistemas tecnológicos serán de noventa (90) días calendario contados desde la fecha de publicación.
+
+Expedida en Bogotá, D.C., a los quince (15) días del mes de marzo de 2021.
+
+DIRECTOR UIAF

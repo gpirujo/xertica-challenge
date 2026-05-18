@@ -1,0 +1,58 @@
+COMISIÓN NACIONAL BANCARIA Y DE VALORES — CNBV
+DISPOSICIÓN 003/2020
+Ciudad de México, 5 de mayo de 2020
+
+ASUNTO: Reporte de Operaciones en Efectivo y Detección de Operaciones Estructuradas
+
+La presente Disposición establece los criterios y procedimientos para el reporte de operaciones en efectivo y para la detección y reporte de operaciones estructuradas orientadas a la evasión de controles de PLD/FT, en el marco de la normativa de Prevención de Operaciones con Recursos de Procedencia Ilícita vigente en los Estados Unidos Mexicanos.
+
+TÍTULO PRIMERO — DISPOSICIONES GENERALES
+
+Art. 1. Fundamento legal.
+La presente Disposición se emite con fundamento en el artículo 115 de la Ley de Instituciones de Crédito y en las Recomendaciones del GAFI adoptadas por México, en particular las Recomendaciones 10 y 11 relativas a la diligencia debida y la conservación de registros, y la Recomendación 29 relativa a la declaración de efectivo.
+
+Art. 2. Sujetos obligados.
+Las presentes disposiciones aplican a todas las entidades financieras bajo la supervisión de la CNBV. La aplicación de estas disposiciones no excluye las obligaciones de identificación del beneficiario final establecidas en la Disposición 012/2022 ni las obligaciones relativas a PEPs establecidas en la Disposición 008/2023.
+
+Art. 3. Definición de operación en efectivo.
+Para efectos de la presente Disposición, se entiende por operación en efectivo toda transacción que involucre la recepción, entrega o intercambio de moneda de curso legal en billetes y monedas, incluyendo: depósitos en efectivo, retiros en efectivo, cambio de divisas, y compra o venta de cheques de caja o instrumentos similares mediante pago en efectivo.
+
+Art. 4. Definición de operación estructurada.
+Se entiende por operación estructurada aquella que ha sido diseñada deliberadamente para quedar por debajo de los umbrales de reporte, mediante el fraccionamiento de una operación o conjunto de operaciones que en su conjunto superarían dichos umbrales. La estructuración es una infracción autónoma a las normas de PLD/FT, independientemente de si la operación subyacente es lícita.
+
+TÍTULO SEGUNDO — REPORTE DE OPERACIONES EN EFECTIVO
+
+Art. 5. Umbral de reporte de operaciones en efectivo.
+Las operaciones en efectivo por montos iguales o superiores a MXN 100,000 (cien mil pesos mexicanos) o su equivalente en divisas deberán reportarse a la Unidad de Inteligencia Financiera (UIF) mediante el Reporte de Operaciones en Efectivo (ROE) establecido en el Art. 6. Para el cálculo del equivalente en divisas, se utilizará el tipo de cambio FIX publicado por el Banco de México el día anterior a la operación.
+
+Art. 6. Reporte de Operaciones en Efectivo (ROE).
+El Reporte de Operaciones en Efectivo deberá presentarse mensualmente, dentro de los primeros diez (10) días hábiles del mes siguiente al período reportado, a través del sistema electrónico de la UIF. El reporte deberá incluir la información completa de todas las operaciones en efectivo que superen el umbral establecido en el Art. 5.
+
+Art. 7. Contenido del ROE.
+Cada operación incluida en el ROE deberá contener: (a) datos completos del cliente (nombre, RFC, domicilio); (b) tipo de operación en efectivo; (c) monto en moneda nacional y, si aplica, en moneda extranjera; (d) fecha y hora de la operación; (e) sucursal o punto de atención donde se realizó; (f) identificación del funcionario que atendió la operación. Para clientes que sean personas morales, deberá incluirse adicionalmente la información del beneficiario final conforme a la Disposición 012/2022 Art.5.
+
+Art. 8. Operaciones en efectivo de PEPs.
+Las operaciones en efectivo realizadas por personas clasificadas como PEPs conforme a la Disposición 008/2023 Art.3 deberán reportarse individualmente, sin esperar el ciclo mensual del ROE, dentro de los tres (3) días hábiles siguientes a su realización. El escalamiento al oficial de cumplimiento previsto en la Disposición 008/2023 Art.8 aplica también para estas operaciones.
+
+TÍTULO TERCERO — DETECCIÓN DE OPERACIONES ESTRUCTURADAS
+
+Art. 9. Obligación de implementar sistemas de detección.
+Las entidades financieras deberán implementar sistemas automatizados de detección de patrones de estructuración, capaces de: (a) acumular el monto de operaciones en efectivo de un mismo cliente en ventanas de tiempo de veinticuatro (24), cuarenta y ocho (48) y setenta y dos (72) horas; (b) identificar operaciones realizadas en múltiples sucursales o por cuenta de un mismo cliente por terceros; (c) detectar patrones de depósito justo por debajo del umbral del Art. 5 en períodos cortos.
+
+Art. 10. Criterios de presunción de estructuración.
+Se presume la existencia de estructuración deliberada cuando se detecten los siguientes patrones: (a) tres (3) o más operaciones en efectivo del mismo cliente en un período de setenta y dos (72) horas, cuyo monto agregado supere el umbral del Art. 5, con montos individuales inferiores a dicho umbral; (b) operaciones en efectivo en días consecutivos por montos que individualmente son inferiores al umbral pero que en su conjunto lo superan en el lapso de una semana; (c) intercambio de billetes de alta denominación por billetes de baja denominación sin justificación económica aparente.
+
+Art. 11. Reporte de operaciones estructuradas.
+Las operaciones que cumplan con los criterios del Art. 10 deberán reportarse como Reportes de Operaciones Inusuales (ROI) ante la UIF, de conformidad con el procedimiento de reporte de operaciones sospechosas vigente. El ROI deberá documentar el patrón detectado y el monto agregado de las operaciones vinculadas.
+
+TÍTULO CUARTO — DISPOSICIONES FINALES
+
+Art. 12. Conservación de registros.
+Los registros de todas las operaciones en efectivo, incluyendo las que no superen el umbral de reporte, deberán conservarse por un período de diez (10) años, en cumplimiento de los estándares de conservación aplicables al sistema financiero mexicano.
+
+Art. 13. Vigencia.
+La presente Disposición entra en vigor a los sesenta (60) días naturales siguientes a su publicación en el Diario Oficial de la Federación. Deroga la Circular C-029/2015 en materia de reportes de efectivo. Las obligaciones de reporte periódico establecidas en el Art. 6 entrarán en vigor al inicio del trimestre calendario siguiente a la entrada en vigor de la Disposición.
+
+Ciudad de México, a cinco (5) días del mes de mayo de 2020.
+
+PRESIDENTE CNBV

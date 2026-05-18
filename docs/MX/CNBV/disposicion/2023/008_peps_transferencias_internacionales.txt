@@ -1,0 +1,67 @@
+COMISIÓN NACIONAL BANCARIA Y DE VALORES — CNBV
+DISPOSICIÓN 008/2023
+Ciudad de México, 20 de enero de 2023
+
+ASUNTO: Personas Políticamente Expuestas y Transferencias Internacionales
+
+La presente Disposición establece los criterios y procedimientos para el tratamiento de personas políticamente expuestas (PEPs) y para el control de transferencias internacionales de fondos en el marco de la normativa de Prevención de Operaciones con Recursos de Procedencia Ilícita (PLD/FT) vigente en los Estados Unidos Mexicanos.
+
+TÍTULO PRIMERO — DISPOSICIONES GENERALES
+
+Art. 1. Fundamento legal.
+La presente Disposición se emite con fundamento en los artículos 115 de la Ley de Instituciones de Crédito, 87-D de la Ley General de Organizaciones y Actividades Auxiliares del Crédito, y demás disposiciones aplicables del marco normativo de PLD/FT, así como en las Recomendaciones del Grupo de Acción Financiera Internacional (GAFI) adoptadas por México como miembro pleno.
+
+Art. 2. Sujetos obligados.
+Las presentes disposiciones aplican a todas las entidades financieras bajo la supervisión de la CNBV, incluyendo instituciones de crédito, casas de bolsa, sociedades financieras de objeto múltiple, uniones de crédito y demás entidades del sistema financiero mexicano. La aplicación de estas disposiciones es complementaria a lo establecido en la Disposición 012/2022 respecto a la identificación de beneficiarios finales.
+
+Art. 3. Definición de Persona Políticamente Expuesta.
+Para efectos de la presente Disposición, se considera PEP a toda persona que desempeñe o haya desempeñado en los últimos veinticuatro (24) meses funciones públicas prominentes en México o en el extranjero, incluyendo: jefes de Estado y de gobierno, ministros, secretarios de Estado, legisladores, magistrados, funcionarios de organismos internacionales, directivos de empresas de propiedad estatal, y miembros de partidos políticos en cargos directivos. Esta categoría incluye también a los cónyuges, concubinos y familiares en primer grado de consanguinidad de dichas personas.
+
+TÍTULO SEGUNDO — TRATAMIENTO DE PEPs
+
+Art. 4. Política general de tratamiento.
+Las entidades financieras deberán contar con una política documentada y aprobada por el Consejo de Administración para el tratamiento de PEPs. Esta política deberá establecer los criterios de identificación, los procedimientos de escalamiento y los mecanismos de monitoreo reforzado.
+
+Art. 5. Procedimiento de identificación.
+La identificación de PEPs deberá realizarse al inicio de la relación comercial y de forma continua durante toda la vigencia de la misma. Las entidades deberán consultar bases de datos especializadas, listas de sanciones internacionales y fuentes de información pública oficial para verificar el estatus de PEP de sus clientes.
+
+Art. 6. Revisión periódica.
+Las entidades financieras deberán revisar semestralmente su cartera de clientes para identificar nuevos PEPs o cambios en el estatus de los ya identificados. Los cambios detectados deberán documentarse y comunicarse al oficial de cumplimiento dentro de las cuarenta y ocho (48) horas siguientes.
+
+Art. 7. Aprobación de nuevas relaciones con PEPs.
+El establecimiento de nuevas relaciones comerciales con personas clasificadas como PEPs requiere aprobación previa del oficial de cumplimiento designado, quien deberá documentar las razones que justifican el establecimiento de la relación y los controles adicionales que se aplicarán.
+
+Art. 8. Escalamiento obligatorio al oficial de cumplimiento.
+Toda operación realizada por una persona clasificada como PEP deberá escalarse siempre al oficial de compliance designado por la entidad, independientemente del monto de la operación. El oficial de compliance deberá revisar y autorizar expresamente cada transacción dentro de un plazo máximo de cuatro (4) horas hábiles. Para el caso específico de PEPs que además realicen transferencias internacionales, se deberán aplicar adicionalmente los controles establecidos en el Art. 22 de la presente Disposición. El incumplimiento del requisito de escalamiento constituye una falta grave bajo la presente normativa. Los procedimientos de escalamiento en entornos de banca digital han sido complementados por la Disposición 015/2024 Art.8.
+
+TÍTULO TERCERO — TRANSFERENCIAS INTERNACIONALES
+
+Art. 9. Marco de control de transferencias internacionales.
+Las transferencias internacionales de fondos constituyen un vector de riesgo elevado en materia de PLD/FT. Las entidades financieras deberán implementar controles específicos y proporcionales al monto y destino de estas operaciones.
+
+Art. 10. Información requerida en transferencias internacionales.
+Toda transferencia internacional deberá incluir información completa del ordenante y del beneficiario, en cumplimiento de las normas SWIFT y de las Recomendaciones GAFI 16. La información deberá conservarse por un mínimo de diez (10) años.
+
+Art. 11. Monitoreo en tiempo real.
+Las entidades financieras deberán implementar sistemas de monitoreo en tiempo real capaces de detectar patrones inusuales en transferencias internacionales, incluyendo fraccionamiento, triangulación y operaciones con jurisdicciones de riesgo.
+
+Art. 15. Transferencias con jurisdicciones de riesgo.
+Las transferencias internacionales hacia o desde jurisdicciones identificadas por el GAFI como de alto riesgo o no cooperantes requerirán documentación adicional y aprobación del oficial de cumplimiento, independientemente del monto. Ver también Art. 22 para los umbrales generales de documentación.
+
+Art. 22. Transferencias internacionales mayores a USD 50,000.
+Las transferencias internacionales de fondos por montos iguales o superiores a USD 50,000 (cincuenta mil dólares estadounidenses) o su equivalente en moneda nacional requieren documentación completa del origen de los fondos. Esta documentación deberá incluir: declaración notariada del origen de los recursos, estados financieros o declaración fiscal del período inmediato anterior, y en caso de persona moral, identificación del beneficiario final conforme a la Disposición 012/2022 Art.5. La documentación deberá ser revisada y aprobada por el oficial de cumplimiento antes de procesar la transferencia. Los requisitos de documentación para transferencias realizadas mediante plataformas digitales han sido actualizados por la Disposición 015/2024 Art.10.
+
+TÍTULO CUARTO — PERSONAS JURÍDICAS
+
+Art. 30. Personas jurídicas sin beneficiario final identificado.
+Las personas jurídicas que no cuenten con el beneficiario final plenamente identificado y verificado deberán clasificarse como clientes de alto riesgo. Esta clasificación implica la aplicación de todas las medidas de debida diligencia reforzada, incluyendo monitoreo transaccional intensificado, revisión semestral del perfil de riesgo y limitación de los montos máximos operables hasta que se regularice la situación. La obligación de identificación del beneficiario final se detalla en la Disposición 012/2022. Las entidades financieras no podrán mantener relaciones comerciales activas con personas jurídicas de alto riesgo por más de noventa (90) días sin resolver la situación de beneficiario no identificado.
+
+Art. 31. Reporte de incumplimiento de personas jurídicas.
+Cuando una persona jurídica clasifique como alto riesgo por beneficiario no identificado conforme al Art. 30 y no regularice su situación dentro del plazo establecido, la entidad financiera deberá reportar la situación a la Unidad de Inteligencia Financiera (UIF) conforme al procedimiento de reporte de operaciones sospechosas vigente.
+
+Art. 32. Vigencia.
+La presente Disposición entra en vigor a los sesenta (60) días naturales siguientes a su publicación en el Diario Oficial de la Federación. Deroga la Circular P-019/2020 en materia de PEPs.
+
+Ciudad de México, a veinte (20) días del mes de enero de 2023.
+
+PRESIDENTE CNBV

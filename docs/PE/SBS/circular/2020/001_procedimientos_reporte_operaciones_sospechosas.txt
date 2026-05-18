@@ -1,0 +1,60 @@
+SUPERINTENDENCIA DE BANCA, SEGUROS Y AFP — SBS
+CIRCULAR SBS N° 001-2020
+Lima, 8 de enero de 2020
+
+ASUNTO: Procedimientos Operativos para el Reporte de Operaciones Sospechosas ante la UIF-Perú
+
+La Superintendencia de Banca, Seguros y AFP, de conformidad con las facultades establecidas en el artículo 349° de la Ley N° 26702 y en coordinación con la Unidad de Inteligencia Financiera del Perú (UIF-Perú), establece los procedimientos operativos para la presentación de Reportes de Operaciones Sospechosas (ROS) y de Reportes de Operaciones con Efectivo (ROE) en el marco del Sistema de Prevención de LA/FT regulado por la Resolución SBS N° 2660-2015.
+
+SECCIÓN I — DISPOSICIONES GENERALES
+
+Art. 1. Objeto.
+La presente Circular establece los procedimientos operativos y técnicos para la presentación de reportes obligatorios ante la UIF-Perú, complementando las obligaciones sustantivas establecidas en la Resolución SBS N° 2660-2015. En caso de conflicto entre las disposiciones procedimentales de la presente Circular y las obligaciones sustantivas de la Resolución SBS N° 2660-2015, prevalecerán estas últimas.
+
+Art. 2. Definición de Reporte de Operación Sospechosa (ROS).
+Para efectos de la presente Circular, se entiende por Reporte de Operación Sospechosa (ROS) el documento estandarizado mediante el cual las empresas supervisadas comunican a la UIF-Perú las operaciones que, conforme al análisis realizado bajo los criterios de la Resolución SBS N° 2660-2015, presentan indicios de lavado de activos o financiamiento del terrorismo.
+
+Art. 3. Definición de Reporte de Operación con Efectivo (ROE).
+Se entiende por Reporte de Operación con Efectivo (ROE) el documento mediante el cual se reportan las operaciones en efectivo que superen el umbral establecido en la Resolución SBS N° 2660-2015 Art.24, con independencia de que la operación sea o no considerada sospechosa.
+
+SECCIÓN II — SISTEMA DE REPORTE ELECTRÓNICO
+
+Art. 4. Portal de Reporte UIF-Perú.
+Los ROS y ROE deberán presentarse exclusivamente a través del Portal de Reporte Electrónico de la UIF-Perú (PREUIF). Las empresas supervisadas deberán registrar a su oficial de cumplimiento como usuario administrador del sistema y mantener actualizados los accesos del personal autorizado.
+
+Art. 5. Plazos de presentación.
+Los ROS deberán presentarse dentro del plazo establecido por la normativa vigente, que actualmente es de treinta (30) días calendario contados desde la fecha en que la empresa detecta la operación sospechosa. Para operaciones que involucren PEPs conforme a la Resolución SBS N° 2660-2015 Art.12, el plazo se reduce a quince (15) días calendario. Los ROE deberán presentarse mensualmente, dentro de los primeros diez (10) días hábiles del mes siguiente al período reportado.
+
+Art. 6. Contenido mínimo del ROS.
+Cada ROS deberá contener: (a) identificación completa del sujeto reportado; (b) descripción detallada de la operación o conjunto de operaciones que motivan el reporte; (c) monto en soles y equivalente en dólares estadounidenses al tipo de cambio SBS del día de la operación; (d) fundamento de la calificación de sospechosa, con referencia a los indicadores de alerta aplicables; (e) acciones adoptadas por la empresa ante la detección.
+
+SECCIÓN III — PROCEDIMIENTOS INTERNOS
+
+Art. 7. Protocolo de análisis previo al reporte.
+Antes de presentar un ROS, la empresa supervisada deberá completar el siguiente protocolo: (a) identificación de la operación por parte del analista de cumplimiento; (b) revisión del perfil transaccional del cliente durante los últimos doce (12) meses; (c) contraste con los indicadores de alerta establecidos en el Anexo I de la presente Circular; (d) consulta al oficial de cumplimiento para la decisión de reporte; (e) documentación del análisis en el expediente del cliente.
+
+Art. 8. Expediente del cliente.
+Las empresas supervisadas deberán mantener un expediente del cliente que incluya el historial de alertas generadas, los análisis realizados, y los ROS presentados. Este expediente deberá estar disponible para inspección por la SBS en cualquier momento. Los requisitos de conservación de este expediente son los establecidos en la Resolución SBS N° 2660-2015 Art.26.
+
+Art. 9. Confidencialidad del reporte.
+La presentación de un ROS es estrictamente confidencial. Las empresas supervisadas y su personal tienen prohibido revelar al cliente o a terceros la presentación de un ROS, conforme a lo establecido en la Ley N° 27693. El incumplimiento de esta obligación de confidencialidad constituye una infracción muy grave.
+
+SECCIÓN IV — INDICADORES DE ALERTA
+
+Art. 10. Indicadores de alerta para PEPs.
+Las empresas supervisadas deberán prestar especial atención a los siguientes indicadores de alerta en operaciones de PEPs, de conformidad con la Resolución SBS N° 2660-2015 Art.12: (a) variación súbita en el monto o frecuencia de operaciones sin justificación económica aparente; (b) recepción de fondos desde cuentas de terceros sin relación comercial aparente con el PEP; (c) transferencias hacia o desde jurisdicciones de riesgo identificadas conforme a la Resolución SBS N° 2660-2015 Art.18; (d) operaciones realizadas a través de intermediarios sin identificación clara de la cadena de control.
+
+Art. 11. Indicadores de alerta para operaciones estructuradas.
+Deberán generarse alertas automáticas cuando se detecten los siguientes patrones de estructuración, en concordancia con la Resolución SBS N° 2660-2015 Art.22: (a) tres (3) o más operaciones en efectivo en el mismo día por montos individuales inferiores al umbral del Art. 24 de la Resolución SBS N° 2660-2015 pero con suma agregada superior; (b) depósitos en múltiples sucursales o agencias el mismo día; (c) compra o canje de instrumentos financieros en montos que sumados superen el umbral en un período de cuarenta y ocho (48) horas.
+
+SECCIÓN V — DISPOSICIONES FINALES
+
+Art. 12. Capacitación en uso del PREUIF.
+Las empresas supervisadas deberán garantizar que el oficial de cumplimiento y el personal de las áreas de cumplimiento cuenten con capacitación certificada en el uso del PREUIF, actualizable anualmente.
+
+Art. 13. Vigencia.
+La presente Circular rige a partir de su publicación en el Diario Oficial El Peruano y complementa en sus aspectos procedimentales la Resolución SBS N° 2660-2015, que permanece vigente en su integridad.
+
+Lima, a ocho (8) días del mes de enero de 2020.
+
+SUPERINTENDENTE DE BANCA, SEGUROS Y AFP
