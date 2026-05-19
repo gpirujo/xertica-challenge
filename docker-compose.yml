@@ -68,6 +68,8 @@ services:
       - "8888:8888"
     volumes:
       - .:/home/jovyan/work
+    env_file:
+      - .env
     environment:
       - JUPYTER_ENABLE_LAB=yes
 
