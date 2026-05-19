@@ -27,13 +27,15 @@ def ensure_table() -> None:
         raise ValueError("EMBEDDING_DIMENSIONS is not set in the environment")
 
     conn = _get_connection()
+    conn.rollback()
     with conn.cursor() as cur:
         cur.execute("CREATE EXTENSION IF NOT EXISTS vector")
         cur.execute(f"""
             CREATE TABLE IF NOT EXISTS document_chunks (
-                id        SERIAL PRIMARY KEY,
-                filename  TEXT NOT NULL,
-                embedding vector({int(dims)})
+                id           SERIAL PRIMARY KEY,
+                filename     TEXT NOT NULL,
+                country_code TEXT NOT NULL,
+                embedding    vector({int(dims)})
             )
         """)
         cur.execute("""
@@ -42,24 +44,32 @@ def ensure_table() -> None:
                 USING ivfflat (embedding vector_cosine_ops)
         """)
         cur.execute("""
-            CREATE INDEX IF NOT EXISTS document_chunks_filename_idx
-                ON document_chunks (filename)
+            CREATE INDEX IF NOT EXISTS document_chunks_country_filename_idx
+                ON document_chunks (country_code, filename)
         """)
     conn.commit()
 
 
-def insert_embeddings(filename: str, embeddings: list[list[float]]) -> None:
+def insert_embeddings(filename: str, embeddings: list[list[float]], country_code: str) -> None:
     conn = _get_connection()
-    rows = [(filename, embedding) for embedding in embeddings]
+    rows = [(filename, country_code, embedding) for embedding in embeddings]
     with conn.cursor() as cur:
         cur.executemany(
-            "INSERT INTO document_chunks (filename, embedding) VALUES (%s, %s)",
+            "INSERT INTO document_chunks (filename, country_code, embedding) VALUES (%s, %s, %s)",
             rows,
         )
     conn.commit()
 
 
-def search_similar(query_embedding: list[float], top_k: int = 5) -> list[str]:
+def clear_table() -> None:
+    """Delete all rows from document_chunks."""
+    conn = _get_connection()
+    with conn.cursor() as cur:
+        cur.execute("TRUNCATE TABLE document_chunks")
+    conn.commit()
+
+
+def search_similar(query_embedding: list[float], top_k: int = 5, country_code: str = "") -> list[str]:
     conn = _get_connection()
     with conn.cursor() as cur:
         cur.execute(
@@ -68,12 +78,13 @@ def search_similar(query_embedding: list[float], top_k: int = 5) -> list[str]:
             FROM (
                 SELECT filename, MIN(embedding <=> %s::vector) AS min_dist
                 FROM document_chunks
+                WHERE country_code = %s
                 GROUP BY filename
                 ORDER BY min_dist
                 LIMIT %s
             ) sub
             """,
-            (query_embedding, top_k),
+            (query_embedding, country_code, top_k),
         )
         rows = cur.fetchall()
     return [row[0] for row in rows]

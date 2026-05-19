@@ -37,13 +37,14 @@ def ensure_index() -> None:
         mappings={
             "properties": {
                 "document_id": {"type": "keyword"},
+                "country_code": {"type": "keyword"},
                 "content": {"type": "text", "analyzer": "spanish", "store": False},
             }
         },
     )
 
 
-def bulk_index_chunks(document_id: str, chunks: list[str]) -> None:
+def bulk_index_chunks(document_id: str, chunks: list[str], country_code: str) -> None:
     client = _get_client()
     actions = [
         {
@@ -51,6 +52,7 @@ def bulk_index_chunks(document_id: str, chunks: list[str]) -> None:
             "_id": f"{document_id}_{i}",
             "_source": {
                 "document_id": document_id,
+                "country_code": country_code,
                 "content": unicodedata.normalize("NFC", chunk),
             },
         }
@@ -59,12 +61,23 @@ def bulk_index_chunks(document_id: str, chunks: list[str]) -> None:
     bulk(client, actions)
 
 
-def search_documents(query: str, top_k: int = 5) -> list[str]:
+def clear_index() -> None:
+    """Delete all documents from the index without dropping the index itself."""
+    client = _get_client()
+    client.delete_by_query(index=_INDEX, body={"query": {"match_all": {}}}, refresh=True)
+
+
+def search_documents(query: str, top_k: int = 5, country_code: str = "") -> list[str]:
     """Return unique document_ids ranked by best BM25 chunk score."""
     client = _get_client()
     resp = client.search(
         index=_INDEX,
-        query={"match": {"content": query}},
+        query={
+            "bool": {
+                "must": {"match": {"content": query}},
+                "filter": {"term": {"country_code": country_code}},
+            }
+        },
         collapse={"field": "document_id"},
         size=top_k,
     )
