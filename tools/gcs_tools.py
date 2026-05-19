@@ -1,6 +1,5 @@
 import os
 from pathlib import Path
-from typing import Iterator
 
 from dotenv import load_dotenv
 
@@ -26,8 +25,9 @@ def _docs_base() -> Path:
     return base.resolve()
 
 
-def get_document_catalog() -> Iterator[dict]:
+def get_document_catalog() -> list[dict]:
     base = _docs_base()
+    results = []
 
     for dirpath, _dirnames, filenames in os.walk(base):
         for filename in (f for f in filenames if f.endswith(".txt")):
@@ -46,7 +46,7 @@ def get_document_catalog() -> Iterator[dict]:
             doc_number, rest = stem.split("_", 1)
             doc_title = rest.replace("_", " ")
 
-            yield {
+            results.append({
                 "document_id": str(rel),
                 "country": country,
                 "country_code": country_code,
@@ -55,7 +55,9 @@ def get_document_catalog() -> Iterator[dict]:
                 "year": year,
                 "number": doc_number,
                 "title": doc_title,
-            }
+            })
+
+    return results
 
 
 def get_document(document_id: str) -> str:
