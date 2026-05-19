@@ -30,7 +30,7 @@ def get_document_catalog() -> Iterator[dict]:
     base = _docs_base()
 
     for dirpath, _dirnames, filenames in os.walk(base):
-        for filename in filenames:
+        for filename in (f for f in filenames if f.endswith(".txt")):
             full_path = Path(dirpath) / filename
             rel = full_path.relative_to(base)
             parts = rel.parts  # e.g. ("CO", "UIAF", "circular", "2021", "001_ros.txt")
