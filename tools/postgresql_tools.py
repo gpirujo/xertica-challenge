@@ -21,6 +21,33 @@ def _get_connection():
     return _connection
 
 
+def ensure_table() -> None:
+    dims = os.environ.get("EMBEDDING_DIMENSIONS")
+    if not dims:
+        raise ValueError("EMBEDDING_DIMENSIONS is not set in the environment")
+
+    conn = _get_connection()
+    with conn.cursor() as cur:
+        cur.execute("CREATE EXTENSION IF NOT EXISTS vector")
+        cur.execute(f"""
+            CREATE TABLE IF NOT EXISTS document_chunks (
+                id        SERIAL PRIMARY KEY,
+                filename  TEXT NOT NULL,
+                embedding vector({int(dims)})
+            )
+        """)
+        cur.execute("""
+            CREATE INDEX IF NOT EXISTS document_chunks_embedding_idx
+                ON document_chunks
+                USING ivfflat (embedding vector_cosine_ops)
+        """)
+        cur.execute("""
+            CREATE INDEX IF NOT EXISTS document_chunks_filename_idx
+                ON document_chunks (filename)
+        """)
+    conn.commit()
+
+
 def insert_embeddings(filename: str, embeddings: list[list[float]]) -> None:
     conn = _get_connection()
     rows = [(filename, embedding) for embedding in embeddings]

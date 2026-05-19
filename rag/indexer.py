@@ -3,7 +3,7 @@ import re
 
 import tiktoken
 
-from tools import embedding_tools, gcs_tools, postgresql_tools
+from tools import elasticsearch_tools, embedding_tools, gcs_tools, postgresql_tools
 
 logger = logging.getLogger(__name__)
 
@@ -33,6 +33,8 @@ def _split_into_chunks(text: str, encoding: tiktoken.Encoding) -> list[str]:
 
 def index_documents() -> None:
     enc = tiktoken.get_encoding(_ENCODING)
+    postgresql_tools.ensure_table()
+    elasticsearch_tools.ensure_index()
 
     docs = gcs_tools.get_document_catalog()
 
@@ -55,5 +57,6 @@ def index_documents() -> None:
 
         embeddings = embedding_tools.embed(all_chunks)
         postgresql_tools.insert_embeddings(filename, embeddings)
+        elasticsearch_tools.bulk_index_chunks(filename, all_chunks, metadata=doc)
 
         logger.info("Indexed %s — %d chunks", filename, len(all_chunks))
