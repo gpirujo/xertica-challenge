@@ -12,4 +12,4 @@ def dense_retrieve(query: str, top_k: int = 5) -> list[str]:
 
 def sparse_retrieve(query: str, top_k: int = 5) -> list[str]:
     normalized = unicodedata.normalize("NFC", query)
-    return elasticsearch_tools.search_chunks(normalized, top_k)
+    return elasticsearch_tools.search_documents(normalized, top_k)

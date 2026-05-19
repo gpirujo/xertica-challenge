@@ -57,6 +57,6 @@ def index_documents() -> None:
 
         embeddings = embedding_tools.embed(all_chunks)
         postgresql_tools.insert_embeddings(filename, embeddings)
-        elasticsearch_tools.bulk_index_chunks(filename, all_chunks, metadata=doc)
+        elasticsearch_tools.bulk_index_chunks(filename, all_chunks)
 
         logger.info("Indexed %s — %d chunks", filename, len(all_chunks))

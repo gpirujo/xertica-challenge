@@ -14,7 +14,7 @@ from rag.retriever import sparse_retrieve
 
 def test_sparse_retrieve_returns_chunk_contents():
     expected = ["chunk A", "chunk B"]
-    with patch("rag.retriever.elasticsearch_tools.search_chunks", return_value=expected) as mock_search:
+    with patch("rag.retriever.elasticsearch_tools.search_documents", return_value=expected) as mock_search:
         result = sparse_retrieve("persona políticamente expuesta")
 
         mock_search.assert_called_once_with("persona políticamente expuesta", 5)
@@ -22,18 +22,18 @@ def test_sparse_retrieve_returns_chunk_contents():
 
 
 def test_sparse_retrieve_normalizes_query_to_nfc():
-    """NFC-normalized form must be forwarded to search_chunks."""
+    """NFC-normalized form must be forwarded to search_documents."""
     raw_query = "políticamente"  # NFD: 'i' + combining acute accent
     nfc_query = unicodedata.normalize("NFC", raw_query)
 
-    with patch("rag.retriever.elasticsearch_tools.search_chunks", return_value=[]) as mock_search:
+    with patch("rag.retriever.elasticsearch_tools.search_documents", return_value=[]) as mock_search:
         sparse_retrieve(raw_query)
 
         mock_search.assert_called_once_with(nfc_query, 5)
 
 
 def test_sparse_retrieve_respects_top_k():
-    with patch("rag.retriever.elasticsearch_tools.search_chunks", return_value=[]) as mock_search:
+    with patch("rag.retriever.elasticsearch_tools.search_documents", return_value=[]) as mock_search:
         sparse_retrieve("transferencia", top_k=3)
 
         mock_search.assert_called_once_with("transferencia", 3)
@@ -77,6 +77,3 @@ def test_index_documents_calls_both_stores():
         pg_filename = mock_pg.call_args[0][0]
         es_filename = mock_es.call_args[0][0]
         assert pg_filename == es_filename == fake_doc["document_id"]
-
-        es_metadata = mock_es.call_args[1]["metadata"]
-        assert es_metadata == fake_doc

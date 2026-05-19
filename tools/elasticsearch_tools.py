@@ -32,30 +32,22 @@ def ensure_index() -> None:
             },
             mappings={
                 "properties": {
-                    "chunk_id": {"type": "keyword"},
                     "document_id": {"type": "keyword"},
-                    "content": {"type": "text", "analyzer": "spanish"},
-                    "metadata": {"type": "object"},
+                    "content": {"type": "text", "analyzer": "spanish", "store": False},
                 }
             },
         )
 
 
-def bulk_index_chunks(
-    document_id: str,
-    chunks: list[str],
-    metadata: dict | None = None,
-) -> None:
+def bulk_index_chunks(document_id: str, chunks: list[str]) -> None:
     client = _get_client()
     actions = [
         {
             "_index": _INDEX,
             "_id": f"{document_id}_{i}",
             "_source": {
-                "chunk_id": f"{document_id}_{i}",
                 "document_id": document_id,
                 "content": unicodedata.normalize("NFC", chunk),
-                "metadata": metadata or {},
             },
         }
         for i, chunk in enumerate(chunks)
@@ -63,11 +55,13 @@ def bulk_index_chunks(
     bulk(client, actions)
 
 
-def search_chunks(query: str, top_k: int = 5) -> list[str]:
+def search_documents(query: str, top_k: int = 5) -> list[str]:
+    """Return unique document_ids ranked by best BM25 chunk score."""
     client = _get_client()
     resp = client.search(
         index=_INDEX,
         query={"match": {"content": query}},
+        collapse={"field": "document_id"},
         size=top_k,
     )
-    return [hit["_source"]["content"] for hit in resp["hits"]["hits"]]
+    return [hit["_source"]["document_id"] for hit in resp["hits"]["hits"]]
