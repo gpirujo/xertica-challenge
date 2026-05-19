@@ -10,11 +10,11 @@ def initialize() -> None:
     elasticsearch_tools.ensure_index()
 
 
-def index(document_id: str, articles: list[str]) -> None:
-    elasticsearch_tools.bulk_index_chunks(document_id, articles)
+def index(document_id: str, articles: list[str], country_code: str) -> None:
+    elasticsearch_tools.bulk_index_chunks(document_id, articles, country_code)
     logger.info("Sparse-indexed %s — %d articles", document_id, len(articles))
 
 
-def search(query: str, top_k: int = 5) -> list[str]:
+def search(query: str, top_k: int = 5, country_code: str = "") -> list[str]:
     normalized = unicodedata.normalize("NFC", query)
-    return elasticsearch_tools.search_documents(normalized, top_k)
+    return elasticsearch_tools.search_documents(normalized, top_k, country_code)

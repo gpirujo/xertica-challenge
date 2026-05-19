@@ -2,7 +2,8 @@ import logging
 import re
 
 from tools import gcs_tools
-from rag import dense, graph, sparse
+from rag import dense, sparse
+from rag.graph import GraphLayer
 
 logger = logging.getLogger(__name__)
 
@@ -16,10 +17,13 @@ def index_documents() -> None:
     docs = gcs_tools.get_document_catalog()
     dense.initialize()
     sparse.initialize()
-    graph.initialize(docs)
+    graph_layer = GraphLayer()
+    graph_layer.initialize()
+    graph_layer.load_catalog(docs)
 
     for doc in docs:
         document_id = doc["document_id"]
+        country_code = doc["country_code"]
         content = gcs_tools.get_document(document_id)
 
         boundaries = [m.start() for m in ARTICLE_RE.finditer(content)]
@@ -31,6 +35,6 @@ def index_documents() -> None:
         else:
             articles = [content]
 
-        dense.index(document_id, articles)
-        sparse.index(document_id, articles)
-        graph.index(document_id, articles)
+        dense.index(document_id, articles, country_code)
+        sparse.index(document_id, articles, country_code)
+        graph_layer.index(document_id, content, country_code)
