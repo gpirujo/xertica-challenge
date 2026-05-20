@@ -1,6 +1,72 @@
 from datetime import date
 
 
+def get_alert_data(alert_id: str) -> dict:
+    alert_types = ["structuring", "unusual_wire", "pep_transaction", "high_volume", "offshore_transfer"]
+    severities = ["low", "medium", "high"]
+    customer_ids = ["CUST-001", "CUST-002", "CUST-003", "CUST-004", "CUST-005"]
+    created_dates = ["2024-11-01", "2024-11-15", "2024-12-01", "2024-12-10", "2025-01-05"]
+
+    descriptions = {
+        "structuring": (
+            "Multiple cash deposits just below reporting thresholds detected within 30 days. "
+            "Pattern is consistent with structuring to avoid CTR requirements."
+        ),
+        "unusual_wire": (
+            "Wire transfer to a jurisdiction with elevated AML risk flagged outside the customer's normal transaction pattern. "
+            "No apparent business justification on file."
+        ),
+        "pep_transaction": (
+            "Transaction involving a counterparty identified as a politically exposed person or a related entity. "
+            "Enhanced due diligence is required."
+        ),
+        "high_volume": (
+            "Unusually high cumulative transaction volume detected over the past 90 days, "
+            "significantly exceeding the customer's historical average."
+        ),
+        "offshore_transfer": (
+            "Transfer to an offshore jurisdiction with limited transparency. "
+            "Recipient entity has no apparent business relationship on file."
+        ),
+    }
+
+    h = hash(alert_id)
+    alert_type = alert_types[h % len(alert_types)]
+    return {
+        "alert_id": alert_id,
+        "customer_id": customer_ids[h % len(customer_ids)],
+        "alert_type": alert_type,
+        "description": descriptions[alert_type],
+        "severity": severities[h % len(severities)],
+        "created_at": created_dates[h % len(created_dates)],
+    }
+
+
+def get_customer_data(customer_id: str) -> dict:
+    names = [
+        "Valentina Ríos Herrera",
+        "Andrés Felipe Morales",
+        "Lucía Fernanda Castillo",
+        "Carlos Eduardo Mendoza",
+        "Gabriela Sofía Vargas",
+    ]
+    country_codes = ["CO", "MX", "PE"]
+    risk_profiles = ["low", "medium", "high"]
+    account_types = ["personal", "business"]
+    since_years = [2010, 2014, 2017, 2019, 2022]
+
+    h = hash(customer_id)
+    return {
+        "customer_id": customer_id,
+        "name": names[h % len(names)],
+        "country_code": country_codes[h % len(country_codes)],
+        "risk_profile": risk_profiles[h % len(risk_profiles)],
+        "is_pep": (h % 7) == 0,
+        "account_type": account_types[h % len(account_types)],
+        "since_year": since_years[h % len(since_years)],
+    }
+
+
 def get_latest_transactions(customer_id: str, days: int = 90) -> list[dict]:
     return [
         {

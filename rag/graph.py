@@ -1,7 +1,8 @@
 import json
 import logging
 
-from tools import falkordb_tools, llm_tools
+from tools import falkordb_tools
+from tools.llm_tools import get_llm
 
 logger = logging.getLogger(__name__)
 
@@ -264,7 +265,7 @@ class GraphLayer:
             "]"
         )
 
-        raw = llm_tools.call_llm(prompt).strip()
+        raw = get_llm().invoke(prompt).content.strip()
         if raw.startswith("```"):
             parts = raw.split("```")
             raw = parts[1] if len(parts) > 1 else parts[0]

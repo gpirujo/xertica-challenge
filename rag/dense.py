@@ -2,7 +2,8 @@ import logging
 
 import tiktoken
 
-from tools import llm_tools, postgresql_tools
+from tools import postgresql_tools
+from tools.llm_tools import get_embeddings
 
 logger = logging.getLogger(__name__)
 
@@ -34,11 +35,11 @@ def index(document_id: str, articles: list[str], country_code: str) -> None:
     all_chunks: list[str] = []
     for article in articles:
         all_chunks.extend(_split_into_chunks(article, enc))
-    embeddings = llm_tools.embed(all_chunks)
+    embeddings = get_embeddings().embed_documents(all_chunks)
     postgresql_tools.insert_embeddings(document_id, embeddings, country_code)
     logger.info("Dense-indexed %s — %d chunks", document_id, len(all_chunks))
 
 
 def search(query: str, top_k: int = 5, country_code: str = "") -> list[str]:
-    query_embedding = llm_tools.embed([query])
-    return postgresql_tools.search_similar(query_embedding[0], top_k, country_code)
+    query_embedding = get_embeddings().embed_query(query)
+    return postgresql_tools.search_similar(query_embedding, top_k, country_code)
