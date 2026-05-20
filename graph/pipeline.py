@@ -59,7 +59,7 @@ def run_pipeline(alert: dict) -> ComplianceState:
     pipeline = build_pipeline()
     try:
         state = pipeline.invoke(
-            {"alert": alert},
+            {"alert": alert, "trace_id": trace_id},
             config={
                 "callbacks": [handler],
                 "run_name": "compliance-pipeline",
@@ -67,6 +67,7 @@ def run_pipeline(alert: dict) -> ComplianceState:
             },
         )
         state["trace_id"] = trace_id
+        score_trace(trace_id, "pipeline_error", 0.0)
         return state
     except Exception:
         score_trace(trace_id, "pipeline_error", 1.0)

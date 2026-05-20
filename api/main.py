@@ -1,6 +1,4 @@
-import asyncio
 import os
-from datetime import datetime, timedelta
 
 from fastapi import FastAPI, HTTPException
 from fastapi.concurrency import run_in_threadpool
@@ -88,128 +86,11 @@ async def get_alert_status(alert_id: str):
     }
 
 
-@app.get("/api/v1/metrics/summary")
-async def metrics_summary(from_date: Optional[str] = None, to_date: Optional[str] = None):
-    if not os.environ.get("LANGFUSE_PUBLIC_KEY"):
-        return {"error": "Langfuse not configured"}
-
-    from observability.langfuse_config import langfuse_client
-
-    now = datetime.utcnow()
-    if not to_date:
-        to_date = now.date().isoformat()
-    if not from_date:
-        from_date = (now - timedelta(days=30)).date().isoformat()
-
-    async def _get(**kwargs):
-        try:
-            return await langfuse_client.async_api.metrics.get(
-                from_timestamp=from_date,
-                to_timestamp=to_date,
-                **kwargs,
-            )
-        except Exception:
-            return None
-
-    (
-        r_latency,
-        r_cost,
-        r_tokens,
-        r_escalation,
-        r_risk,
-        r_error_rate,
-        r_dismissed,
-        r_agent_latency,
-    ) = await asyncio.gather(
-        _get(
-            view="observations",
-            measure="latency",
-            aggregation="p95",
-            filter=[{"column": "name", "operator": "=", "value": "compliance-pipeline"}],
-        ),
-        _get(
-            view="observations",
-            measure="totalCost",
-            aggregation="avg",
-            filter=[{"column": "traceName", "operator": "=", "value": "compliance-pipeline"}],
-        ),
-        _get(
-            view="observations",
-            measure="totalTokens",
-            aggregation="avg",
-            filter=[{"column": "traceName", "operator": "=", "value": "compliance-pipeline"}],
-        ),
-        _get(
-            view="scores-numeric",
-            measure="value",
-            aggregation="avg",
-            filter=[{"column": "name", "operator": "=", "value": "escalation_decision"}],
-        ),
-        _get(
-            view="scores-numeric",
-            measure="value",
-            aggregation=["avg", "p25", "p50", "p75", "p95"],
-            filter=[{"column": "name", "operator": "=", "value": "risk_score"}],
-        ),
-        _get(
-            view="scores-numeric",
-            measure="value",
-            aggregation="avg",
-            filter=[{"column": "name", "operator": "=", "value": "pipeline_error"}],
-        ),
-        _get(
-            view="scores-numeric",
-            measure="value",
-            aggregation="avg",
-            filter=[{"column": "name", "operator": "=", "value": "auto_dismissed"}],
-        ),
-        _get(
-            view="observations",
-            measure="latency",
-            aggregation="p95",
-            dimension={"field": "name"},
-            filter=[{
-                "column": "name",
-                "operator": "in",
-                "value": ["investigador", "risk_analyzer", "decision_agent"],
-            }],
-        ),
-    )
-
-    def _val(r):
-        row = r.data[0] if r and r.data else None
-        return getattr(row, "value", None) if row else None
-
-    risk_score_data: dict = {"avg": None, "p25": None, "p50": None, "p75": None, "p95": None}
-    if r_risk and r_risk.data:
-        for row in r_risk.data:
-            agg = getattr(row, "aggregation", None)
-            if agg in risk_score_data:
-                risk_score_data[agg] = getattr(row, "value", None)
-
-    latency_by_agent: dict = {"investigador": None, "risk_analyzer": None, "decision_agent": None}
-    if r_agent_latency and r_agent_latency.data:
-        for row in r_agent_latency.data:
-            name = getattr(row, "dimension", None)
-            if name in latency_by_agent:
-                latency_by_agent[name] = getattr(row, "value", None)
-
-    return {
-        "period": {"from": from_date, "to": to_date},
-        "latency_p95_ms": _val(r_latency),
-        "avg_cost_per_alert_usd": _val(r_cost),
-        "avg_tokens_per_alert": _val(r_tokens),
-        "escalation_rate": _val(r_escalation),
-        "auto_dismissed_rate": _val(r_dismissed),
-        "error_rate": _val(r_error_rate),
-        "risk_score": risk_score_data,
-        "latency_by_agent": latency_by_agent,
-    }
-
 
 @app.get("/health")
 async def health():
     return {"status": "ok", "service": "compliance-agent"}
+
 
 
 if __name__ == "__main__":
