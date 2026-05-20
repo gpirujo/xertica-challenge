@@ -3,6 +3,7 @@ import logging
 from pydantic import BaseModel, Field
 
 from graph.state import ComplianceState
+from observability.langfuse_config import score_trace
 from tools.gcs_tools import get_document_metadata
 from tools.llm_tools import get_llm
 
@@ -97,6 +98,9 @@ Identificá anomalías específicas y producí un resumen ejecutivo de 2-3 oraci
             state["applicable_regulations"] = applicable_regulations
             state["risk_analyzer_status"] = "done"
             state["risk_analyzer_error"] = None
+
+            if trace_id := state.get("trace_id"):
+                score_trace(trace_id, "risk_score", result.risk_score)
 
         except Exception as exc:
             logger.error("RiskAnalyzerAgent error: %s", exc, exc_info=True)

@@ -20,7 +20,7 @@ elasticsearch>=8.0,<9.0
 falkordb>=1.0
 
 # Observabilidad
-langfuse>=2.0
+langfuse>=3.0
 
 # Embeddings & chunking
 tiktoken>=0.7

@@ -8,6 +8,7 @@ AgentStatus = Literal["pending", "running", "done", "error"]
 class ComplianceState(TypedDict, total=False):
     # Input
     alert: dict[str, Any]
+    trace_id: str | None
 
     # Agente Investigador
     customer: dict[str, Any]

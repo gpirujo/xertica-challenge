@@ -4,6 +4,7 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 from graph.state import ComplianceState
+from observability.langfuse_config import score_trace
 from tools.llm_tools import get_llm
 
 logger = logging.getLogger(__name__)
@@ -116,6 +117,13 @@ Tu razonamiento debe poder ser auditado, por lo que reasoning_steps debe tener a
             state["final_report"] = result.final_report
             state["decision_status"] = "done"
             state["decision_error"] = None
+
+            if trace_id := state.get("trace_id"):
+                escalation = 1.0 if result.decision == "escalate" else 0.0
+                dismissed  = 1.0 if result.decision == "dismiss"  else 0.0
+                score_trace(trace_id, "escalation_decision", escalation)
+                score_trace(trace_id, "auto_dismissed",       dismissed)
+                score_trace(trace_id, "confidence",           result.confidence)
 
         except Exception as exc:
             logger.error("DecisionAgent error: %s", exc, exc_info=True)

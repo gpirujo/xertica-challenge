@@ -1,0 +1,62 @@
+[
+  {
+    "alert_id": "TEST-001",
+    "customer_id": "CUST-001",
+    "alert_type": "transferencia_domestica",
+    "description": "Transferencia doméstica de bajo valor por $1,500 USD a cuenta de ahorro local. Sin historial previo de alertas."
+  },
+  {
+    "alert_id": "TEST-002",
+    "customer_id": "CUST-002",
+    "alert_type": "transferencia_domestica",
+    "description": "Depósito en efectivo de $2,000 USD en cuenta corriente. El cliente es empleado asalariado con ingresos consistentes."
+  },
+  {
+    "alert_id": "TEST-003",
+    "customer_id": "CUST-003",
+    "alert_type": "transferencia_domestica",
+    "description": "Pago de servicios públicos por $850 USD mediante transferencia bancaria doméstica. Operación rutinaria del cliente."
+  },
+  {
+    "alert_id": "TEST-004",
+    "customer_id": "CUST-004",
+    "alert_type": "transferencia_alto_valor",
+    "description": "Transferencia de $150,000 USD a cuenta de tercero en el mismo país. El cliente alega venta de propiedad inmueble sin documentación de respaldo."
+  },
+  {
+    "alert_id": "TEST-005",
+    "customer_id": "CUST-005",
+    "alert_type": "transferencia_alto_valor",
+    "description": "Retiro en efectivo de $120,000 USD solicitado en una sola operación. El cliente no presenta justificación del origen de los fondos."
+  },
+  {
+    "alert_id": "TEST-006",
+    "customer_id": "PEP-006",
+    "alert_type": "transferencia_pep",
+    "description": "Funcionario público (PEP) realiza transferencias de $45,000 USD a cuentas en múltiples bancos locales. Patrón inusual respecto a su perfil transaccional histórico."
+  },
+  {
+    "alert_id": "TEST-007",
+    "customer_id": "PEP-007",
+    "alert_type": "transferencia_pep",
+    "description": "Persona políticamente expuesta recibe depósitos por $75,000 USD de múltiples fuentes desconocidas en el último mes. No hay actividad comercial registrada."
+  },
+  {
+    "alert_id": "TEST-008",
+    "customer_id": "CUST-008",
+    "alert_type": "estructuracion",
+    "description": "El cliente realizó 12 depósitos en efectivo consecutivos de $9,800 USD cada uno en un período de 5 días, justo por debajo del umbral de reporte obligatorio."
+  },
+  {
+    "alert_id": "TEST-009",
+    "customer_id": "CUST-009",
+    "alert_type": "pitufeo",
+    "description": "Red de 8 cuentas vinculadas al cliente realiza múltiples transferencias pequeñas que se consolidan en una cuenta central, totalizando $95,000 USD en 72 horas."
+  },
+  {
+    "alert_id": "TEST-010",
+    "customer_id": "CUST-010",
+    "alert_type": "transferencia_internacional_sospechosa",
+    "description": "Transferencias internacionales por $200,000 USD hacia jurisdicciones de alto riesgo (Panamá, Islas Caimán) sin justificación comercial aparente ni contratos de respaldo."
+  }
+]
