@@ -25,6 +25,37 @@ def _docs_base() -> Path:
     return base.resolve()
 
 
+def get_document_metadata(document_id: str, include_content: bool = False) -> dict:
+    parts = Path(document_id).parts  # e.g. ("CO", "UIAF", "circular", "2021", "001_ros.txt")
+
+    country_code = parts[0] if len(parts) > 0 else ""
+    issuer = parts[1] if len(parts) > 1 else ""
+    doc_type = parts[2] if len(parts) > 2 else ""
+    year = parts[3] if len(parts) > 3 and parts[3].isdigit() else ""
+
+    country = _COUNTRY_NAMES.get(country_code.upper(), country_code)
+
+    stem = Path(parts[-1]).stem if parts else ""  # e.g. "001_reporte_operaciones_sospechosas"
+    doc_number, _, rest = stem.partition("_")
+    doc_title = rest.replace("_", " ")
+
+    metadata = {
+        "document_id": document_id,
+        "country_code": country_code,
+        "country": country,
+        "issuer": issuer,
+        "type": doc_type,
+        "year": year,
+        "number": doc_number,
+        "title": doc_title,
+    }
+
+    if include_content:
+        metadata["content"] = get_document(document_id)
+
+    return metadata
+
+
 def get_document_catalog() -> list[dict]:
     base = _docs_base()
     results = []
@@ -32,30 +63,8 @@ def get_document_catalog() -> list[dict]:
     for dirpath, _dirnames, filenames in os.walk(base):
         for filename in (f for f in filenames if f.endswith(".txt")):
             full_path = Path(dirpath) / filename
-            rel = full_path.relative_to(base)
-            parts = rel.parts  # e.g. ("CO", "UIAF", "circular", "2021", "001_ros.txt")
-
-            country_code = parts[0] if len(parts) > 0 else ""
-            issuer = parts[1] if len(parts) > 1 else ""
-            doc_type = parts[2] if len(parts) > 2 else ""
-            year = parts[3] if len(parts) > 3 and parts[3].isdigit() else ""
-
-            country = _COUNTRY_NAMES.get(country_code.upper(), country_code)
-
-            stem = Path(filename).stem  # e.g. "001_reporte_operaciones_sospechosas"
-            doc_number, rest = stem.split("_", 1)
-            doc_title = rest.replace("_", " ")
-
-            results.append({
-                "document_id": str(rel),
-                "country": country,
-                "country_code": country_code,
-                "issuer": issuer,
-                "type": doc_type,
-                "year": year,
-                "number": doc_number,
-                "title": doc_title,
-            })
+            rel = str(full_path.relative_to(base))
+            results.append(get_document_metadata(rel))
 
     return results
 

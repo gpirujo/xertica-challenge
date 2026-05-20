@@ -3,6 +3,7 @@ import logging
 from pydantic import BaseModel, Field
 
 from graph.state import ComplianceState
+from tools.gcs_tools import get_document_metadata
 from tools.llm_tools import get_llm
 
 logger = logging.getLogger(__name__)
@@ -21,6 +22,9 @@ class RiskAnalysisOutput(BaseModel):
     risk_justification: str
     anomalies: list[str]
     risk_summary: str
+    applicable_regulation_ids: list[str] = Field(
+        description="document_id de las normativas aplicables, tal como aparecen en el prompt"
+    )
 
 
 class RiskAnalyzerAgent:
@@ -36,7 +40,7 @@ class RiskAnalyzerAgent:
             )[:10]
 
             doc_excerpts = "\n\n".join(
-                f"[Documento {i + 1}]\n{doc['content'][:500]}"
+                f"[document_id: {doc['document_id']}]\n{doc['content'][:500]}"
                 for i, doc in enumerate(documents)
             )
 
@@ -79,10 +83,18 @@ Identificá anomalías específicas y producí un resumen ejecutivo de 2-3 oraci
                 get_llm().with_structured_output(RiskAnalysisOutput).invoke(prompt)
             )
 
+            applicable_regulations = []
+            for doc_id in result.applicable_regulation_ids:
+                try:
+                    applicable_regulations.append(get_document_metadata(doc_id))
+                except Exception as exc:
+                    logger.warning("Could not resolve regulation ID %r: %s", doc_id, exc)
+
             state["risk_score"] = result.risk_score
             state["risk_justification"] = result.risk_justification
             state["anomalies"] = result.anomalies
             state["risk_summary"] = result.risk_summary
+            state["applicable_regulations"] = applicable_regulations
             state["risk_analyzer_status"] = "done"
             state["risk_analyzer_error"] = None
 

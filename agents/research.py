@@ -49,7 +49,7 @@ class ResearchAgent:
             for doc_id in doc_ids:
                 try:
                     text = get_document(doc_id)
-                    documents.append({"content": text})
+                    documents.append({"document_id": doc_id, "content": text})
                 except FileNotFoundError:
                     logger.warning("Document not found, skipping: %s", doc_id)
             state["documents"] = documents
