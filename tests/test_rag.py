@@ -1,79 +1,149 @@
 import unicodedata
-from unittest.mock import patch
+import unittest
+from unittest.mock import MagicMock, patch
 
-import rag.indexer
-import rag.retriever
+import tiktoken
+
+import rag.retriever as retriever_module
+from rag import dense, sparse
+from rag.dense import _OVERLAP_TOKENS, _split_into_chunks
+from rag.graph import GraphLayer
 from rag.indexer import index_documents
-from rag.retriever import sparse_retrieve
+from rag.retriever import hybrid_retrieve
 
 
-# ---------------------------------------------------------------------------
-# sparse_retrieve
-# ---------------------------------------------------------------------------
+_ENC = tiktoken.get_encoding("cl100k_base")
 
 
-def test_sparse_retrieve_returns_chunk_contents():
-    expected = ["chunk A", "chunk B"]
-    with patch("rag.retriever.elasticsearch_tools.search_documents", return_value=expected) as mock_search:
-        result = sparse_retrieve("persona políticamente expuesta")
+class TestDenseChunking(unittest.TestCase):
+    def test_split_into_chunks_single_chunk(self):
+        text = "Texto corto que no supera los doscientos tokens."
+        chunks = _split_into_chunks(text, _ENC)
+        self.assertEqual(len(chunks), 1)
 
-        mock_search.assert_called_once_with("persona políticamente expuesta", 5)
-        assert result == expected
+    def test_split_into_chunks_overlap(self):
+        # ~300 tokens — enough for exactly 2 chunks
+        text = "hello world " * 150
+        chunks = _split_into_chunks(text, _ENC)
+        self.assertGreaterEqual(len(chunks), 2)
 
-
-def test_sparse_retrieve_normalizes_query_to_nfc():
-    """NFC-normalized form must be forwarded to search_documents."""
-    raw_query = "políticamente"  # NFD: 'i' + combining acute accent
-    nfc_query = unicodedata.normalize("NFC", raw_query)
-
-    with patch("rag.retriever.elasticsearch_tools.search_documents", return_value=[]) as mock_search:
-        sparse_retrieve(raw_query)
-
-        mock_search.assert_called_once_with(nfc_query, 5)
+        tokens_0 = _ENC.encode(chunks[0])
+        overlap_text = _ENC.decode(tokens_0[-_OVERLAP_TOKENS:])
+        self.assertTrue(chunks[1].startswith(overlap_text))
 
 
-def test_sparse_retrieve_respects_top_k():
-    with patch("rag.retriever.elasticsearch_tools.search_documents", return_value=[]) as mock_search:
-        sparse_retrieve("transferencia", top_k=3)
+class TestDenseSearch(unittest.TestCase):
+    def test_dense_search_calls_postgresql(self):
+        fake_vector = [0.1] * 8
+        fake_embeddings = MagicMock()
+        fake_embeddings.embed_query.return_value = fake_vector
 
-        mock_search.assert_called_once_with("transferencia", 3)
+        with patch("rag.dense.get_embeddings", return_value=fake_embeddings), \
+             patch("rag.dense.postgresql_tools.search_similar", return_value=["doc1"]) as mock_similar:
+            result = dense.search("query", top_k=3, country_code="CO")
+
+        mock_similar.assert_called_once_with(fake_vector, 3, "CO")
+        self.assertEqual(result, ["doc1"])
 
 
-# ---------------------------------------------------------------------------
-# index_documents — must write to both pgvector and Elasticsearch
-# ---------------------------------------------------------------------------
+class TestSparseSearch(unittest.TestCase):
+    def test_sparse_search_normalizes_nfc(self):
+        nfd_query = unicodedata.normalize("NFD", "café")
+        nfc_query = unicodedata.normalize("NFC", "café")
+
+        with patch("rag.sparse.elasticsearch_tools.search_documents", return_value=[]) as mock_search:
+            sparse.search(nfd_query)
+
+        self.assertEqual(mock_search.call_args[0][0], nfc_query)
+
+    def test_sparse_search_passes_top_k(self):
+        with patch("rag.sparse.elasticsearch_tools.search_documents", return_value=[]) as mock_search:
+            sparse.search("query", top_k=7, country_code="CO")
+
+        mock_search.assert_called_once_with("query", 7, "CO")
+
+    def test_sparse_index_calls_bulk(self):
+        with patch("rag.sparse.elasticsearch_tools.bulk_index_chunks") as mock_bulk:
+            sparse.index("doc1", ["art1", "art2"], "CO")
+
+        mock_bulk.assert_called_once_with("doc1", ["art1", "art2"], "CO")
 
 
-def test_index_documents_calls_both_stores():
-    fake_doc = {
-        "document_id": "CO/UIAF/circular/2021/001_ros.txt",
-        "country": "Colombia",
-        "country_code": "CO",
-        "issuer": "UIAF",
-        "type": "circular",
-        "year": "2021",
-        "number": "001",
-        "title": "ros",
-    }
-    fake_text = "Artículo 1 contenido del artículo uno."
-    fake_embedding = [[0.1] * 768]
+class TestGraphLayer(unittest.TestCase):
+    def test_graph_expand_returns_related(self):
+        with patch("rag.graph.falkordb_tools.get_related_documents", return_value=["DOC-B"]):
+            graph = GraphLayer()
+            result = graph.expand("DOC-A")
 
-    with (
-        patch("rag.indexer.gcs_tools.get_document_catalog", return_value=[fake_doc]),
-        patch("rag.indexer.gcs_tools.get_document", return_value=fake_text),
-        patch("rag.indexer.embedding_tools.embed", return_value=fake_embedding),
-        patch("rag.indexer.postgresql_tools.ensure_table") as mock_ensure_pg,
-        patch("rag.indexer.postgresql_tools.insert_embeddings") as mock_pg,
-        patch("rag.indexer.elasticsearch_tools.ensure_index") as mock_ensure_es,
-        patch("rag.indexer.elasticsearch_tools.bulk_index_chunks") as mock_es,
-    ):
-        index_documents()
+        self.assertEqual(result, ["DOC-B"])
 
-        mock_ensure_pg.assert_called_once()
-        mock_ensure_es.assert_called_once()
-        mock_pg.assert_called_once()
-        mock_es.assert_called_once()
+    def test_graph_expand_returns_empty(self):
+        with patch("rag.graph.falkordb_tools.get_related_documents", return_value=[]):
+            graph = GraphLayer()
+            result = graph.expand("DOC-A")
 
-        pg_filename = mock_pg.call_args[0][0]
-        es_filename = mock_es.call_args[0][0]
-        assert pg_filename == es_filename == fake_doc["document_id"]
+        self.assertEqual(result, [])
+
+
+class TestIndexer(unittest.TestCase):
+    def test_index_documents_calls_dense_sparse_graph(self):
+        doc = {
+            "document_id": "CO/UIAF/circular/2021/001_ros.txt",
+            "country_code": "CO",
+            "country": "Colombia",
+            "issuer": "UIAF",
+            "type": "circular",
+            "year": "2021",
+            "number": "001",
+            "title": "ros",
+        }
+        mock_graph = MagicMock()
+
+        with patch("rag.indexer.gcs_tools.get_document_catalog", return_value=[doc]), \
+             patch("rag.indexer.gcs_tools.get_document", return_value="Artículo 1 contenido"), \
+             patch("rag.indexer.dense.initialize"), \
+             patch("rag.indexer.dense.index") as mock_dense_index, \
+             patch("rag.indexer.sparse.initialize"), \
+             patch("rag.indexer.sparse.index") as mock_sparse_index, \
+             patch("rag.indexer.GraphLayer", return_value=mock_graph):
+            index_documents()
+
+        mock_dense_index.assert_called_once()
+        self.assertEqual(mock_dense_index.call_args[0][0], doc["document_id"])
+
+        mock_sparse_index.assert_called_once()
+        self.assertEqual(mock_sparse_index.call_args[0][0], doc["document_id"])
+
+        mock_graph.index.assert_called_once()
+        self.assertEqual(mock_graph.index.call_args[0][0], doc["document_id"])
+
+
+class TestRetriever(unittest.TestCase):
+    def test_hybrid_retrieve_rrf_ordering(self):
+        # B appears in both lists → highest RRF score → must be first
+        with patch("rag.retriever.dense.search", return_value=["A", "B"]), \
+             patch("rag.retriever.sparse.search", return_value=["B", "C"]), \
+             patch.object(retriever_module._graph, "expand", return_value=[]):
+            result = hybrid_retrieve("query", top_k=5, country_code="CO")
+
+        self.assertIn("B", result)
+        self.assertIn("A", result)
+        self.assertIn("C", result)
+        self.assertLess(result.index("B"), result.index("A"))
+        self.assertLess(result.index("B"), result.index("C"))
+
+    def test_hybrid_retrieve_appends_graph_extras(self):
+        def expand_side_effect(doc_id):
+            return ["X"] if doc_id == "A" else []
+
+        with patch("rag.retriever.dense.search", return_value=["A"]), \
+             patch("rag.retriever.sparse.search", return_value=["A"]), \
+             patch.object(retriever_module._graph, "expand", side_effect=expand_side_effect):
+            result = hybrid_retrieve("query", top_k=5, country_code="CO")
+
+        self.assertIn("X", result)
+        self.assertLess(result.index("A"), result.index("X"))
+
+
+if __name__ == "__main__":
+    unittest.main()
