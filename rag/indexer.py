@@ -1,5 +1,6 @@
 import logging
 import re
+from collections.abc import Callable
 
 from tools import gcs_tools
 from rag import dense, sparse
@@ -13,7 +14,10 @@ ARTICLE_RE = re.compile(
 )
 
 
-def index_documents() -> None:
+def index_documents(
+    before: Callable[[dict], None] | None = None,
+    after: Callable[[dict], None] | None = None,
+) -> None:
     docs = gcs_tools.get_document_catalog()
     dense.initialize()
     sparse.initialize()
@@ -35,6 +39,10 @@ def index_documents() -> None:
         else:
             articles = [content]
 
+        if before is not None:
+            before(doc)
         dense.index(document_id, articles, country_code)
         sparse.index(document_id, articles, country_code)
         graph_layer.index(document_id, content, country_code)
+        if after is not None:
+            after(doc)
