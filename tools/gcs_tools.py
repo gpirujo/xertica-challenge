@@ -18,7 +18,7 @@ class _MockGCSBackend:
     }
 
     def _docs_base(self) -> Path:
-        docs_dir = os.environ.get("DOCS_DIR", "docs")
+        docs_dir = os.environ.get("DOCS_DIR", "fixtures/regulatory_docs")
         base = Path(docs_dir)
         if not base.is_absolute():
             base = Path(__file__).parent.parent / base
