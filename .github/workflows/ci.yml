@@ -71,10 +71,9 @@ jobs:
 
       - name: Build Docker image
         run: |
-          IMAGE_BASE="$GCP_REGION-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/$APP_NAME/$APP_NAME"
           docker build \
-            -t "$IMAGE_BASE:${{ github.sha }}" \
-            -t "$IMAGE_BASE:latest" \
+            -t "$APP_NAME:${{ github.sha }}" \
+            -t "$APP_NAME:latest" \
             .
 
       - name: Authenticate to GCP
