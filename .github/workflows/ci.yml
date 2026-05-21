@@ -64,10 +64,18 @@ jobs:
   build-and-push:
     needs: test
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && secrets.GCP_SA_KEY != ''
+    if: github.event_name == 'push'
 
     steps:
       - uses: actions/checkout@v5
+
+      - name: Build Docker image
+        run: |
+          IMAGE_BASE="$GCP_REGION-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/$APP_NAME/$APP_NAME"
+          docker build \
+            -t "$IMAGE_BASE:${{ github.sha }}" \
+            -t "$IMAGE_BASE:latest" \
+            .
 
       - name: Authenticate to GCP
         uses: google-github-actions/auth@v3
@@ -79,14 +87,6 @@ jobs:
 
       - name: Configure Docker for Artifact Registry
         run: gcloud auth configure-docker ${{ env.GCP_REGION }}-docker.pkg.dev --quiet
-
-      - name: Build Docker image
-        run: |
-          IMAGE_BASE="$GCP_REGION-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/$APP_NAME/$APP_NAME"
-          docker build \
-            -t "$IMAGE_BASE:${{ github.sha }}" \
-            -t "$IMAGE_BASE:latest" \
-            .
 
       - name: Push Docker image
         run: |
@@ -101,11 +101,9 @@ jobs:
   deploy:
     needs: build-and-push
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && secrets.GCP_SA_KEY != ''
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     steps:
-      - uses: actions/checkout@v5
-
       - name: Authenticate to GCP
         uses: google-github-actions/auth@v3
         with:
