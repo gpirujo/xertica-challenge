@@ -1,0 +1,131 @@
+# CI/CD pipeline for compliance-agent
+#
+# Required secrets (Settings → Secrets and variables → Actions):
+#   GCP_SA_KEY          — JSON key for the GCP service account with deploy permissions
+#   GCP_PROJECT_ID      — GCP project where resources live
+#   LANGFUSE_PUBLIC_KEY — Observability platform public key
+#   LANGFUSE_SECRET_KEY — Observability platform secret key
+
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+env:
+  APP_NAME: compliance-agent
+  GCP_REGION: us-central1
+
+jobs:
+  # ──────────────────────────────────────────────────────────────────────────
+  # test — run the full test suite with coverage (all infra is mocked)
+  # ──────────────────────────────────────────────────────────────────────────
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install test dependencies
+        run: pip install pytest pytest-cov
+
+      - name: Run tests with coverage
+        run: pytest --cov=. --cov-report=xml --cov-fail-under=60
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage.xml
+          retention-days: 7
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # build-and-push — build Docker image and push to Artifact Registry.
+  # Runs only on pushes to main or develop (not on PRs).
+  # ──────────────────────────────────────────────────────────────────────────
+  build-and-push:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate to GCP
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up gcloud CLI
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker for Artifact Registry
+        run: gcloud auth configure-docker ${{ env.GCP_REGION }}-docker.pkg.dev --quiet
+
+      - name: Build Docker image
+        run: |
+          IMAGE_BASE="$GCP_REGION-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/$APP_NAME/$APP_NAME"
+          docker build \
+            -t "$IMAGE_BASE:${{ github.sha }}" \
+            -t "$IMAGE_BASE:latest" \
+            .
+
+      - name: Push Docker image
+        run: |
+          IMAGE_BASE="$GCP_REGION-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/$APP_NAME/$APP_NAME"
+          docker push "$IMAGE_BASE:${{ github.sha }}"
+          docker push "$IMAGE_BASE:latest"
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # deploy — update Cloud Run with the newly pushed image.
+  # Runs only on pushes to main (develop is build-only for staging promotion).
+  # ──────────────────────────────────────────────────────────────────────────
+  deploy:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate to GCP
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Deploy to Cloud Run
+        run: |
+          IMAGE="$GCP_REGION-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/$APP_NAME/$APP_NAME:${{ github.sha }}"
+          SA="${APP_NAME}-sa@${{ secrets.GCP_PROJECT_ID }}.iam.gserviceaccount.com"
+
+          gcloud run deploy "${APP_NAME}-api" \
+            --image "$IMAGE" \
+            --region "$GCP_REGION" \
+            --service-account "$SA" \
+            --set-env-vars "ENV=production,LANGFUSE_PUBLIC_KEY=${{ secrets.LANGFUSE_PUBLIC_KEY }},LANGFUSE_SECRET_KEY=${{ secrets.LANGFUSE_SECRET_KEY }}" \
+            --platform managed \
+            --quiet
+
+      - name: Print service URL
+        run: |
+          gcloud run services describe "${APP_NAME}-api" \
+            --region "$GCP_REGION" \
+            --format "value(status.url)"
