@@ -17,7 +17,10 @@ class TestBigqueryTools(unittest.TestCase):
         self.assertEqual(result1, result2)
 
     def test_get_alert_data_fields(self):
-        result = get_alert_data("ALERT-XYZ")
+        alerts = __import__("json").loads(
+            (Path(__file__).parent.parent / "fixtures" / "alerts.json").read_text(encoding="utf-8")
+        )
+        result = get_alert_data(alerts[0]["alert_id"])
         for key in ("alert_id", "customer_id", "alert_type", "description", "severity", "created_at"):
             self.assertIn(key, result)
 
@@ -50,7 +53,7 @@ class TestGcsTools(unittest.TestCase):
         fake_base = Path("/fake/docs")
         fake_dirpath = str(fake_base / "CO" / "UIAF" / "circular" / "2021")
 
-        with patch("tools.gcs_tools._docs_base", return_value=fake_base), \
+        with patch("tools.gcs_tools._MockGCSBackend._docs_base", return_value=fake_base), \
              patch("tools.gcs_tools.os.walk", return_value=[(fake_dirpath, [], ["001_ros.txt"])]):
             catalog = get_document_catalog()
 

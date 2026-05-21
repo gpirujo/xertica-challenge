@@ -1,0 +1,23 @@
+{
+  "customer_id": "CUST-001",
+  "name": "Gabriela Sofía Vargas",
+  "country_code": "CO",
+  "risk_profile": "low",
+  "is_pep": false,
+  "account_type": "business",
+  "since_year": 2022,
+  "transactions": [
+    {"transaction_id": "TXN-0001", "customer_id": "CUST-001", "date": "2024-11-03", "amount_usd": 48500.0, "currency": "USD", "type": "wire_transfer", "counterparty_country": "PA", "channel": "swift", "is_flagged": true},
+    {"transaction_id": "TXN-0002", "customer_id": "CUST-001", "date": "2024-11-07", "amount_usd": 9800.0, "currency": "COP", "type": "cash_deposit", "counterparty_country": "CO", "channel": "branch", "is_flagged": false},
+    {"transaction_id": "TXN-0003", "customer_id": "CUST-001", "date": "2024-11-12", "amount_usd": 125000.0, "currency": "USD", "type": "wire_transfer", "counterparty_country": "VG", "channel": "swift", "is_flagged": true},
+    {"transaction_id": "TXN-0004", "customer_id": "CUST-001", "date": "2024-11-15", "amount_usd": 3200.0, "currency": "MXN", "type": "pos_payment", "counterparty_country": "MX", "channel": "card", "is_flagged": false},
+    {"transaction_id": "TXN-0005", "customer_id": "CUST-001", "date": "2024-11-18", "amount_usd": 74900.0, "currency": "USD", "type": "wire_transfer", "counterparty_country": "KY", "channel": "swift", "is_flagged": true},
+    {"transaction_id": "TXN-0006", "customer_id": "CUST-001", "date": "2024-11-21", "amount_usd": 1500.0, "currency": "PEN", "type": "cash_withdrawal", "counterparty_country": "PE", "channel": "atm", "is_flagged": false},
+    {"transaction_id": "TXN-0007", "customer_id": "CUST-001", "date": "2024-11-25", "amount_usd": 22000.0, "currency": "USD", "type": "international_transfer", "counterparty_country": "CO", "channel": "online_banking", "is_flagged": false},
+    {"transaction_id": "TXN-0008", "customer_id": "CUST-001", "date": "2024-11-28", "amount_usd": 9950.0, "currency": "USD", "type": "cash_deposit", "counterparty_country": "US", "channel": "branch", "is_flagged": true},
+    {"transaction_id": "TXN-0009", "customer_id": "CUST-001", "date": "2024-12-02", "amount_usd": 310000.0, "currency": "USD", "type": "wire_transfer", "counterparty_country": "PA", "channel": "swift", "is_flagged": true},
+    {"transaction_id": "TXN-0010", "customer_id": "CUST-001", "date": "2024-12-05", "amount_usd": 680.0, "currency": "COP", "type": "mobile_transfer", "counterparty_country": "CO", "channel": "app", "is_flagged": false},
+    {"transaction_id": "TXN-0011", "customer_id": "CUST-001", "date": "2024-12-09", "amount_usd": 55000.0, "currency": "USD", "type": "wire_transfer", "counterparty_country": "MX", "channel": "swift", "is_flagged": false},
+    {"transaction_id": "TXN-0012", "customer_id": "CUST-001", "date": "2024-12-14", "amount_usd": 18750.0, "currency": "USD", "type": "check_deposit", "counterparty_country": "PE", "channel": "branch", "is_flagged": false}
+  ]
+}
