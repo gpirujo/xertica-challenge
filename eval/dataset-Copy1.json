@@ -1,0 +1,62 @@
+[
+  {
+    "country_code": "CO",
+    "question": "What is the purpose of the GAFI in electronic fund transfers?",
+    "reference": "The GAFI establishes requirements for compliance with the Travel Rule in electronic fund transfers and regulates due diligence obligations in correspondent banking relationships."
+  },
+  {
+    "country_code": "CO",
+    "question": "What information must be included in electronic fund transfers according to the UIAF regulations?",
+    "reference": "According to the UIAF regulations, the financial institution of the sender must include and transmit the following information in every electronic fund transfer: the full name of the sender, the sender's account number or unique transaction identifier, the sender's identification number (ID card, NIT, or equivalent), and the sender's address or alternatively, the date and place of birth or official identification number. For the beneficiary, the information must include the full name and account number or unique transaction identifier. For international transfers exceeding the threshold set by Circular 002/2022, the beneficiary's identification number must also be included."
+  },
+  {
+    "country_code": "CO",
+    "question": "¿Cuáles son las obligaciones de debida diligencia que deben cumplir las entidades en Bogotá, D.C. al establecer relaciones de banca corresponsal?",
+    "reference": "Las entidades en Bogotá, D.C. que establezcan relaciones de banca corresponsal deben realizar debida diligencia reforzada, que incluye: (a) verificación del marco regulatorio y supervisor al que está sujeta la entidad corresponsal; (b) evaluación del régimen de PLD/FT de la entidad corresponsal; (c) verificación de que la entidad corresponsal no esté incluida en las listas de sanciones de la Circular 004/2021 Art.4; y (d) obtención de información sobre los controles de PLD/FT implementados por la entidad corresponsal."
+  },
+  {
+    "country_code": "CO",
+    "question": "Cual es la fecha de la circular externa 002 de 2022 en bogota, d.c.?",
+    "reference": "La circular externa 002 de 2022 fue emitida en Bogotá, D.C. el 10 de junio de 2022."
+  },
+  {
+    "country_code": "CO",
+    "question": "What are the requirements for financial institutions regarding the implementation of international financial sanctions and how do they relate to the control of sanctions lists as outlined in the UIAF Circular 004 of 2021?",
+    "reference": "The requirements for financial institutions regarding the implementation of international financial sanctions, as outlined in the UIAF Circular 004 of 2021, include the immediate freezing of assets and the prohibition of making funds available to individuals or entities included in sanctions lists. This is in compliance with UN Security Council Resolutions and the recommendations of the FATF. Additionally, financial institutions must consult mandatory sanctions lists, such as the consolidated list of the UN Security Council and the OFAC's Specially Designated Nationals list, during their due diligence processes. These lists must be checked at the start of any commercial relationship, before processing any fund transfers, and continuously through automated monitoring systems. In case of a positive match with a sanctions list, institutions are required to freeze the affected assets immediately and report the action to the UIAF within 24 hours."
+  },
+  {
+    "country_code": "CO",
+    "question": "What are the obligations for reporting suspicious operations (Reporte de Operaciones Sospechosas) as mandated by the Superintendencia Financiera de Colombia, and what are the consequences of failing to comply with these obligations?",
+    "reference": "The obligations for reporting suspicious operations (Reporte de Operaciones Sospechosas) as mandated by the Superintendencia Financiera de Colombia include that all entities under its supervision must report any transaction classified as unusual or suspicious to the Unidad de Información y Análisis Financiero (UIAF) within twenty-four (24) hours of detection. The report must be submitted through the electronic system provided by the UIAF and must include the complete identification of the client, a description of the operation, the amount in local currency and its equivalent in US dollars, the date and time of the transaction, and the technical justification for classifying it as suspicious. Failure to comply with this reporting obligation can result in sanctions as outlined in Article 19 of the circular, which may include fines ranging from 200 to 20,000 legal monthly minimum wages, and in severe cases, the revocation of the operating license."
+  },
+  {
+    "country_code": "CO",
+    "question": "¿Cuáles son los requisitos para el control de listas de sanciones en relación con las sanciones financieras internacionales según la Circular Externa 004 de 2021?",
+    "reference": "Los requisitos para el control de listas de sanciones en relación con las sanciones financieras internacionales, según la Circular Externa 004 de 2021, incluyen la consulta obligatoria de listas de sanciones como la lista consolidada del Consejo de Seguridad de la ONU, la lista de Specially Designated Nationals (SDN) de la OFAC, y la lista de personas y entidades sujetas a sanciones de la UE. Además, las listas deben ser consultadas al inicio de toda relación comercial, antes de procesar cualquier transferencia de fondos, y de forma continua mediante sistemas automatizados de monitoreo con actualizaciones diarias. En caso de una coincidencia positiva con una lista de sanciones, se debe congelar de inmediato los activos del sujeto afectado y comunicarlo a la UIAF dentro de las veinticuatro horas siguientes."
+  },
+  {
+    "country_code": "CO",
+    "question": "Que sanciones financieras internacionales se deben aplicar y como se controla listas de sanciones?",
+    "reference": "Las sanciones financieras internacionales se aplican mediante medidas de congelamiento inmediato de activos y la prohibición de poner fondos a disposición de personas o entidades en listas de sanciones, de acuerdo con las Resoluciones del Consejo de Seguridad de la ONU. Para controlar las listas de sanciones, los sujetos obligados deben consultar listas como la del Consejo de Seguridad de la ONU y la de la OFAC, al inicio de relaciones comerciales y antes de procesar transferencias de fondos, además de mantener un monitoreo continuo con actualizaciones diarias."
+  },
+  {
+    "country_code": "CO",
+    "question": "What are the updates regarding electronic fund transfers and due diligence as outlined in the circulars issued in Bogotá, D.C. in 2022?",
+    "reference": "The updates regarding electronic fund transfers and due diligence in Bogotá, D.C. are detailed in two circulars issued by the Unidad de Información y Análisis Financiero (UIAF). The Circular Externa 002 de 2022 introduces modifications to the reporting thresholds and reinforces obligations concerning the identification of the final beneficiary and the treatment of politically exposed persons (PEPs). It establishes a new automatic reporting threshold of USD 10,000 for fund transfers and updates the methodology for currency conversion. Additionally, it mandates that the thresholds be reviewed annually based on price index evolution and trends in money laundering and terrorist financing typologies. The Circular Externa 005 de 2022 sets requirements for compliance with the Financial Action Task Force (FATF) Travel Rule in electronic fund transfers and regulates due diligence obligations in correspondent banking relationships, ensuring that information about the sender and beneficiary travels with the transfer throughout the payment chain."
+  },
+  {
+    "country_code": "CO",
+    "question": "Cual es la circular que establece las obligaciones de debida diligencia en Bogotá?",
+    "reference": "La circular que establece las obligaciones de debida diligencia en Bogotá es la Circular Externa 001 de 2021, que establece los lineamientos para el reporte de operaciones sospechosas y las obligaciones de debida diligencia que deben cumplir los sujetos obligados en el marco de la normativa de prevención de Lavado de Activos y Financiación del Terrorismo (LA/FT)."
+  },
+  {
+    "country_code": "CO",
+    "question": "What are the requirements for financial institutions regarding the transmission of information for electronic fund transfers as outlined in Circular 004/2021, particularly in cases where the transfer lacks complete information?",
+    "reference": "According to Circular 004/2021, financial institutions must include and transmit specific information about the orderer and the beneficiary in every electronic fund transfer. If the receiving financial institution receives a transfer that does not contain the required information as specified in Articles 4 and 5, it must attempt to obtain the missing information from the sending entity. If the information is not obtained within forty-eight (48) hours, the institution must block the funds and report the situation to the UIAF if the missing information persists for more than seventy-two (72) hours. Additionally, transfers from jurisdictions identified as high risk without complete information must be blocked immediately, without waiting for the forty-eight (48) hour period."
+  },
+  {
+    "country_code": "CO",
+    "question": "What are the specific reporting requirements and due diligence measures for financial institutions regarding virtual assets as outlined in Circular 001/2021, particularly in relation to transactions involving politically exposed persons (PEPs)?",
+    "reference": "According to Circular 001/2021, financial institutions must adhere to specific reporting requirements for transactions involving virtual assets. Notably, transactions exceeding USD 1,000 must generate an automatic report to the UIAF in real time, within a maximum of two hours from the transaction execution. Additionally, individuals classified as PEPs who engage in operations with virtual assets are subject to immediate reporting of all such operations to the compliance officer, regardless of the amount. They are also prohibited from using non-custodial wallets or cryptocurrency mixers and must verify the origin of virtual assets through specialized blockchain analysis tools. Failure to comply with these additional measures constitutes a serious violation as per the sanctions regime outlined in Article 19 of Circular 001/2021."
+  }
+]
