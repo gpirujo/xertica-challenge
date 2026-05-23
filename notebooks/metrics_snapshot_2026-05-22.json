@@ -1,0 +1,29 @@
+{
+  "period": {
+    "from": "2026-04-22",
+    "to": "2026-05-22"
+  },
+  "latency_p95_ms": 30994.6,
+  "avg_cost_per_alert_usd": 0.00059992812478125,
+  "avg_tokens_per_alert": 2210.421875,
+  "escalation_rate": 0.7619047619047619,
+  "avg_confidence": 0.9023809523809525,
+  "auto_dismissed_rate": 0.23809523809523808,
+  "error_rate": 0,
+  "risk_score_avg": 5.619047619047619,
+  "risk_score_p50": 7,
+  "risk_score_p95": 7,
+  "latency_by_agent": {
+    "research": 3106.8499999999985,
+    "risk_analyzer": 4334.15,
+    "decision_agent": 22892.549999999996
+  },
+  "total_traces": 32,
+  "risk_score": {
+    "avg": 5.619047619047619,
+    "p25": null,
+    "p50": 7,
+    "p75": null,
+    "p95": 7
+  }
+}
